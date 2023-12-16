@@ -1,0 +1,30 @@
+
+
+[
+    {
+      "logo": "<Lottie animationData={frontend} /> ",
+      "title": "Web Design & Development", 
+      "description": "Crafting visually engaging and user-friendly websites with a focus on responsive design."
+    },
+    {
+      "logo": "https://unsplash.com/s/photos/mobile-app-development",
+      "title": "Mobile App Development",
+      "description": "Creating groundbreaking and user-centric mobile applications to meet the demands of the modern digital landscape."
+    }, 
+    {
+      "logo": "https://unsplash.com/s/photos/ui-ux",
+      "title": "UI-UX Design",
+      "description": "Designing visually striking interfaces that elevate user interaction and overall user experience."
+    }, 
+    {
+      "logo": "https://unsplash.com/s/photos/graphic-design",
+      "title": "Graphic Design",
+      "description": "Conveying ideas effectively through visually compelling graphics and imaginative design elements."
+    },
+    {
+      "logo": "https://unsplash.com/s/photos/branding",
+      "title": "Branding & Promotion",
+      "description": "Developing and enhancing brand identities to establish a robust and consistent market presence."
+    }
+  ]
+  

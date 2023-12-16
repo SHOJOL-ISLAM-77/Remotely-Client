@@ -1,12 +1,25 @@
-
+import aboutImg from "../../assets/about.webp";
 
 const About = () => {
-    return (
-        <div>
-            This is abot page 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque fugiat molestiae quis dolorem hic atque, facilis minima odio, repudiandae suscipit ea tempore praesentium aut architecto accusantium. Minus provident aut ad, enim accusamus dicta eos nam consequuntur sit quo obcaecati, tempore ipsum. Nostrum esse, sint dolorem dolorum numquam corrupti veniam quidem optio id similique consequatur temporibus vel omnis! Natus, ut sit. Obcaecati, sapiente facilis tempora, quaerat in debitis nostrum fuga vero architecto delectus reiciendis iure vitae ad ipsa molestias laudantium nesciunt, officiis quae ratione tenetur iusto laboriosam! Quibusdam laborum quam aliquid vel ipsa officiis eveniet, ad quae fuga optio doloremque at veniam culpa delectus quod quisquam hic voluptas reprehenderit inventore dolores accusamus officia porro earum voluptatem. Quisquam doloremque reprehenderit blanditiis dolorum, tenetur dolorem pariatur consequatur inventore voluptatibus, obcaecati fuga laboriosam quas nesciunt! Dolores reprehenderit, numquam excepturi ea, molestiae quam nam expedita minus facere perferendis doloribus sed impedit. Maiores voluptatum debitis cum mollitia, aliquam repellendus impedit ratione incidunt earum placeat magni ipsum. Facilis neque recusandae adipisci alias laboriosam veritatis, nihil placeat odit reiciendis ducimus animi perspiciatis! Aliquid vero suscipit accusantium animi repudiandae quisquam veritatis fuga! Culpa accusamus aliquam sed illum quas est reprehenderit, doloremque provident iure eveniet aliquid architecto adipisci illo rem? Sequi, dolorum. Tempora, inventore. Cupiditate quos delectus dolorum cumque consequuntur laudantium. Modi quos officiis facilis ipsum vitae dolore sed, unde doloremque reiciendis accusamus, quas, autem tenetur neque minima similique officia commodi. Pariatur maiores optio eum velit nesciunt officia placeat labore, quos quia, incidunt ipsa fugit voluptatibus quidem iusto officiis illo cumque praesentium quibusdam cum atque eveniet natus! Culpa rerum dolore minus cum officiis sit consequatur aspernatur fuga voluptas iste eius, molestias deserunt minima necessitatibus inventore dolorem iure? Voluptas vitae officiis ducimus pariatur molestiae assumenda accusantium cupiditate eligendi, magnam sunt laudantium aut reprehenderit dolorum odio aliquam possimus? Hic ipsum quibusdam vitae non harum eveniet modi libero, illo laudantium ex! Vero, quaerat enim, natus delectus accusantium sed facere obcaecati et asperiores officiis illo. Optio repellat, eligendi cum debitis blanditiis qui commodi repudiandae voluptas quibusdam nemo aut, dicta sed magnam vitae odit excepturi aliquam nihil, assumenda inventore! Esse sapiente quos, dolorum modi odit, animi reiciendis autem perspiciatis at, aut eveniet vel quasi eligendi. Tempore explicabo labore sequi, quidem, sit deleniti dolores, voluptas consequatur excepturi nulla ea reprehenderit reiciendis eligendi? Necessitatibus ea, praesentium odit accusamus maiores repudiandae beatae aspernatur ut assumenda rerum tenetur, quam vitae ducimus voluptate expedita dolorem nemo iusto! Eveniet quidem dicta maiores numquam, labore excepturi cum quaerat perspiciatis asperiores velit reiciendis nisi dolorem eius magni doloribus fuga consequuntur hic enim. Velit minima maxime eaque laudantium amet repellendus nihil nemo cumque recusandae consectetur perferendis rem ipsam maiores, dolore tempore ipsa voluptate! Non aliquid error commodi et rem id temporibus illo recusandae beatae, doloremque iusto quis nobis! Tenetur maiores, illum ipsam cumque hic magnam quaerat animi. Possimus debitis natus aperiam iusto labore nemo odit ad iure vitae similique exercitationem, ex consequatur tempore eum harum accusantium perspiciatis fuga animi sed quidem at incidunt beatae cum! Amet rerum aliquam praesentium, mollitia consequatur corrupti incidunt!
-        </div>
-    );
+  return ( 
+    <div className="flex lg:flex-row flex-col items-center gap-8 mx-auto mt-28">
+      <div>  
+        <img src={aboutImg} alt="" />    
+      </div>
+      <div className="flex-1">
+        <p className=" text-[#E57D9D] font-caveat text-4xl">I innovate digital solutions.</p>
+        <h4 className="lg:text-xl text-base text-justify font-nato">  
+          Creating Exceptional Solutions My passion lies in crafting and
+          developing extraordinary digital experiences. My expertise thrives in
+          the realm of User Experience & User Interface design, where I derive
+          immense satisfaction from unraveling intricate design challenges and
+          devising streamlined solutions. Dedicated to cultivating optimal user
+          interactions, I consistently strive to fashion intuitive interfaces
+          that epitomize the pinnacle of user experience.{" "}   
+        </h4> 
+      </div>
+    </div>
+  );
 };
 
 export default About;

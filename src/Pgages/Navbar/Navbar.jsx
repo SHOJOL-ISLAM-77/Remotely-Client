@@ -15,10 +15,10 @@ const Navbar = () => {
             <img  className="w-20 h-20" src={logo}  alt="Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-cinzel">Portfolio</span>
           </a>
-          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">
-          <button className="hidden sm:inline-block px-5 py-2 bg-transparent border border-primary rounded-md text-primary duration-700 hover:text-white hover:bg-primary ">HIRE ME NOW</button> 
-            <button
-              onClick={toggleMobileMenu}
+          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse "> 
+          <button className="hidden sm:inline-block px-5 py-2 bg-transparent border border-primary rounded-md text-primary duration-700 hover:text-white hover:bg-primary font-caveat ">HIRE ME NOW</button> 
+            <button 
+              onClick={toggleMobileMenu} 
               type="button"
               className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-expanded={isMobileMenuOpen}
