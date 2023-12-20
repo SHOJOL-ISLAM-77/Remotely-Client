@@ -7,7 +7,7 @@ const Skills = () => {
         Crafted to navigate the ever-changing 
       </p>
       <h3 className="lg:text-2xl md:text-xl text-lg text-text-color font-semibold uppercase font-cinzel leading-loose">
-        Explore my comprehensive skill set,
+        Explore comprehensive skill set,
       </h3>
       <div className="my-12">
         <SkillSlider></SkillSlider>

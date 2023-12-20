@@ -7,7 +7,7 @@ const About = () => {
         <img src={aboutImg} alt="" />    
       </div>
       <div className="flex-1">
-        <p className=" text-[#E57D9D] font-caveat text-4xl">I innovate digital solutions.</p>
+        <p className=" text-[#E57D9D] font-caveat text-4xl">We innovate digital solutions.</p>
         <h4 className="lg:text-xl text-base text-justify font-nato">  
           Creating Exceptional Solutions My passion lies in crafting and
           developing extraordinary digital experiences. My expertise thrives in

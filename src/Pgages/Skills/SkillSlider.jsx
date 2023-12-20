@@ -16,24 +16,24 @@ import branding from "../../../public/skillsData/branding.json"
 const SkillSlider = () => {
 
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 1000,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 0.3,
     margin: 30, 
     responsive: [
       {
-        breakpoint: 425,  
+        breakpoint: 600,  
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 868,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -43,12 +43,12 @@ const SkillSlider = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 1280,
+        breakpoint: 1400,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -63,7 +63,7 @@ const SkillSlider = () => {
  <Box className="mx-auto "> 
    <Card className="md:h-[410px] h-[420px] text-justify"> 
       <CardActionArea>  
-      <Lottie className="w-full h-[250px]" animationData={web} /> 
+      <Lottie className="w-full h-[220px]" animationData={web} /> 
         <CardContent> 
           <h3 className=" text-gray-900 font-semibold font-nato md:text-2xl text-xl">
           Web Design & Development   
@@ -74,12 +74,12 @@ const SkillSlider = () => {
           </p> 
         </CardContent>
       </CardActionArea>
-      </Card>
+      </Card> 
    </Box>
    <Box>
    <Card className="md:h-[410px] h-[420px]">
       <CardActionArea>
-      <Lottie className="w-full h-[250px]" animationData={app} /> 
+      <Lottie className="w-full h-[220px]" animationData={app} /> 
       <CardContent> 
           <h3 className=" text-gray-900 font-semibold font-nato md:text-2xl text-xl">
           Mobile App Development
@@ -94,7 +94,7 @@ const SkillSlider = () => {
    <Box >
    <Card className="md:h-[410px] h-[420px]">   
       <CardActionArea> 
-      <Lottie className="w-full h-[250px]" animationData={graphic} /> 
+      <Lottie className="w-full h-[220px]" animationData={graphic} /> 
       <CardContent> 
           <h3 className=" text-gray-900 font-semibold font-nato md:text-2xl text-xl">
           Mobile App Development
@@ -109,7 +109,7 @@ const SkillSlider = () => {
    <Box className="mx-auto "> 
    <Card className="md:h-[410px] h-[420px] text-justify"> 
       <CardActionArea>  
-      <Lottie className="w-full h-[250px]" animationData={uidesign} /> 
+      <Lottie className="w-full h-[220px]" animationData={uidesign} /> 
         <CardContent> 
           <h3 className=" text-gray-900 font-semibold font-nato md:text-2xl text-xl">
           Web Design & Development  
@@ -125,7 +125,7 @@ const SkillSlider = () => {
    <Box className="mx-auto "> 
    <Card className="md:h-[410px] h-[420px] text-justify"> 
       <CardActionArea>  
-      <Lottie className="w-full h-[250px]" animationData={branding} /> 
+      <Lottie className="w-full h-[220px]" animationData={branding} /> 
         <CardContent> 
           <h3 className=" text-gray-900 font-semibold font-nato md:text-2xl text-xl">
           Web Design & Development  

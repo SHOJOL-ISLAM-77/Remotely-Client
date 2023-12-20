@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "image": "https://example.com/user1.jpg",
+      "name": "John Doe",
+      "title": "Web Developer",
+      "portfolio": "https://john-doe-portfolio.com",
+      "hireButton": "Hire Now"
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/user2.jpg",
+      "name": "Jane Smith",
+      "title": "Graphic Designer",
+      "portfolio": "https://jane-smith-portfolio.com",
+      "hireButton": "Hire Now"
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/user3.jpg",
+      "name": "Alex Johnson",
+      "title": "Marketing Specialist",
+      "portfolio": "https://alex-johnson-portfolio.com",
+      "hireButton": "Hire Now"
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/user4.jpg",
+      "name": "Emily White",
+      "title": "SEO Expert",
+      "portfolio": "https://emily-white-portfolio.com",
+      "hireButton": "Hire Now"
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/user5.jpg",
+      "name": "Michael Brown",
+      "title": "Mobile App Developer",
+      "portfolio": "https://michael-brown-portfolio.com",
+      "hireButton": "Hire Now"
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/user6.jpg",
+      "name": "Sophia Lee",
+      "title": "UI/UX Designer",
+      "portfolio": "https://sophia-lee-portfolio.com",
+      "hireButton": "Hire Now"
+    }
+  ]
+  
