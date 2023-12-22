@@ -1,0 +1,76 @@
+
+[
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "member_type": "buyer",
+      "title": "Graphic Designer",
+      "description": "I hired John for a logo design project, and I couldn't be happier with the results. His creativity and attention to detail are truly impressive. The communication was smooth, and he delivered the work ahead of schedule.",
+      "service": "Logo Design",
+      "image": "https://images.pexels.com/photos/2672979/pexels-photo-2672979.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "date": "2023-01-15",
+      "country": "United States",
+      "location": "New York, NY"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "member_type": "freelancer",
+      "title": "Web Developer",
+      "description": "Working with Emily was a fantastic experience. She tackled a complex web development task with ease, demonstrating excellent problem-solving skills. The final product exceeded my expectations, and I highly recommend her services.",
+      "service": "Web Development",
+      "image": "url_to_image_2.jpg",
+      "date": "2023-02-22",
+      "country": "Canada",
+      "location": "Toronto, ON"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Davis",
+      "member_type": "buyer",
+      "title": "Content Writer",
+      "description": "I had the pleasure of hiring Sarah for a content writing project. Her writing style is engaging and perfectly captured the tone I was looking for. The content was delivered on time and was of the highest quality. I will definitely work with her again.",
+      "service": "Content Writing",
+      "image": "url_to_image_3.jpg",
+      "date": "2023-03-10",
+      "country": "United Kingdom",
+      "location": "London"
+    },
+    {
+      "id": 4,
+      "name": "David Miller",
+      "member_type": "freelancer",
+      "title": "Social Media Manager",
+      "description": "Michael did an outstanding job managing my social media accounts. He brought fresh ideas to the table and significantly increased engagement. His communication skills are top-notch, making the collaboration seamless and enjoyable.",
+      "service": "Social Media Management",
+      "image": "url_to_image_4.jpg",
+      "date": "2023-04-18",
+      "country": "Australia",
+      "location": "Sydney"
+    },
+    {
+      "id": 5,
+      "name": "Eva Thompson",
+      "member_type": "buyer",
+      "title": "Mobile App Developer",
+      "description": "I hired Alex for a mobile app development project, and I'm extremely satisfied with the results. The app works flawlessly, and Alex was responsive to feedback throughout the development process. I highly recommend his expertise.",
+      "service": "Mobile App Development",
+      "image": "url_to_image_5.jpg",
+      "date": "2023-05-25",
+      "country": "Germany",
+      "location": "Berlin"
+    },
+    {
+      "id": 6,
+      "name": "Frank Hernandez",
+      "member_type": "freelancer",
+      "title": "SEO Specialist",
+      "description": "Hiring Rachel for SEO services was a game-changer for my website. She implemented effective strategies that significantly boosted my site's search engine rankings. Rachel is knowledgeable, reliable, and a pleasure to work with.",
+      "service": "SEO Services",
+      "image": "url_to_image_6.jpg",
+      "date": "2023-06-12",
+      "country": "Brazil",
+      "location": "Sao Paulo"
+    }
+  ]
+  

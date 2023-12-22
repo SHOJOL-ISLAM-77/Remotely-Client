@@ -16,10 +16,7 @@ const Navbar = () => {
     <div> 
       <nav data-aos="fade-down" className=" bg-white/60 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 uppercase  font-noto text-uppercase font-semibold text-text-color lg:text-xl md:text-lg text-base"> 
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3"> 
-          <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img  className="w-20 h-20" src={logo}  alt="Logo" /> 
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-cinzel">Portfolio</span>
-          </a> 
+          <p className="text-[#2155D3] font-noto text-2xl"> <span className="text-[#E6809F] text-">R</span>emotely</p>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse ">  
           <button className="hidden sm:inline-block px-5 py-2 bg-transparent border border-primary rounded-md text-primary duration-700 hover:text-white hover:bg-primary fonr-semibold font-cinzel ">URGENT NOW</button> 
             <button   

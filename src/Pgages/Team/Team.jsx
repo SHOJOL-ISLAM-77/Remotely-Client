@@ -1,32 +1,4 @@
-// import { useEffect, useState } from "react";
 
-// const Team = () => {
-
-//   const [team, setTeam] = useState(); 
-
-//   useEffect(() => {
-//          fetch("./team.json")
-//          .then(res => res.json())
-//          .then(data => {
-//             console.log(data);
-//          })
-//   }, [])
-
-//     return (
-//         <div>
-//             <h3>Meet The Team</h3>
-//            {
-//             team.map(member => <>
-            
-
-
-        //     </>)
-        //    }
-        // </div>/
-//     );
-// };
-
-// export default Team;
 
 
 import { useEffect, useState } from "react";
@@ -39,14 +11,14 @@ const Team = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        setTeam(data); // Set the data to the team state
+        setTeam(data);
       });
   }, []);
 
   return (
     <div>
       <h3>Meet The Team</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-5 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto">
       {team.map((member, index) => (
         <div key={index} className="bg-[#f3f6ff] flex justify-center items-center ">
           <div className="w-full ml-1 mr-1 flex flex-col justify-center items-center sm:w-96 border-gray-700 text-center">
