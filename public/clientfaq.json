@@ -1,0 +1,39 @@
+
+[
+    {
+      "id": 1,
+      "question": "What services do you offer?",
+      "answer": "We offer a range of services including app development, web development, digital marketing, machine learning, WordPress development, AI solutions, chatbot development, CMS development, and ecommerce app development."
+    },
+    {
+      "id": 2,
+      "question": "Tell me about your team.",
+      "answer": "We have a dedicated team of professionals with expertise in various fields. You can explore our team members and their skills on our website."
+    },
+    {
+      "id": 3,
+      "question": "How does the hiring process work?",
+      "answer": "To hire us, simply contact us with your project requirements. Our team will assess the scope and provide you with a detailed proposal. Once agreed, we can proceed with the project."
+    },
+    {
+      "id": 4,
+      "question": "How many teams will be assigned to my project?",
+      "answer": "We allocate a dedicated team of 7 professionals to work on your project, ensuring fast delivery and a commitment to quality."
+    },
+    {
+      "id": 5,
+      "question": "Is the payment process secure?",
+      "answer": "Yes, we prioritize the security of transactions. For added trust, you can make payments and receive project deliverables through trusted platforms like Fiverr, Upwork, or any other reliable third-party service."
+    },
+    {
+      "id": 6,
+      "question": "Do you offer long-term solutions?",
+      "answer": "Absolutely. While we provide options for immediate project delivery through trusted platforms, we also offer long-term solutions where we deliver through our established process, ensuring quality and client satisfaction before payment."
+    },
+    {
+      "id": 7,
+      "question": "How can I get in touch with your team?",
+      "answer": "You can contact us through our website or the contact details provided. We are committed to open communication and will respond promptly to your inquiries."
+    }
+  ]
+  

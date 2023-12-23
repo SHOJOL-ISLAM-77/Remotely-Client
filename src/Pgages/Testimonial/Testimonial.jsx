@@ -37,7 +37,7 @@ const Testimonial = () => {
             <FontAwesomeIcon icon={faQuoteLeft} className="text-7xl w-20  font-caveat hover:text-white mb-10 " />
                 <img  className="h-[250px] mb-3 hover:scale-125 duration-1000 hover:pb-5 " src={review.image} alt="" /> 
               <Rating style={{ maxWidth: 110 }} value={review.rating} readOnly /> 
-              <p className="lg:text-xl md:text-lg text-base font-medium font-nato mt-3">{review.description}</p>
+              <p className="lg:text-xl md:text-lg text-base font-medium font-nato mt-3 text-justify">{review.description}</p>
               <h3 className="text-[#CD9003] mt-3 font-nato hover:text-white lg:text-3xl md:text-2xl  text-lg font-bold">{review.name}</h3> 
               <p className="md:text-3xl text-2xl font-medium  font-caveat">{review.member_type}</p> 
  

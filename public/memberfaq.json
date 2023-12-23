@@ -1,0 +1,45 @@
+
+
+[
+    {
+      "id": 1,
+      "question": "How can I apply to join your team?",
+      "answer": "To join our team, you need to fill out the free application form available on our website."
+    },
+    {
+      "id": 2,
+      "question": "What is the process after submitting the application form?",
+      "answer": "After submitting the form, you need to include links to your top favorite projects that have never been used before. Our team will review the projects for eligibility."
+    },
+    {
+      "id": 3,
+      "question": "How does the project selling process work?",
+      "answer": "If your project is eligible and of high quality, we'll assist in selling it. You will be paid, and a commission of 18% will be deducted for our services."
+    },
+    {
+      "id": 4,
+      "question": "Is there a guarantee of getting work after joining?",
+      "answer": "Yes, we guarantee you work, but you must be committed to delivering on time. If you are consistently late, your chances of getting future work may be reduced."
+    },
+    {
+      "id": 5,
+      "question": "Are there any membership levels for freelancers?",
+      "answer": "Yes, we have three membership levels: Silver, Gold, and Platinum. You can achieve Silver membership by referring 10 people, Gold membership by completing 3 projects, and Platinum membership by working with us for at least 6 months and completing at least 12 projects."
+    },
+    {
+      "id": 6,
+      "question": "What are the benefits of each membership level?",
+      "answer": "Silver members get faster job opportunities. Gold members acquire this status after completing 3 projects. Platinum members are those who have worked with us for at least 6 months and completed at least 12 projects."
+    },
+    {
+      "id": 7,
+      "question": "How can I refer people to become a Silver member?",
+      "answer": "You can refer people to join our team, and once 10 of them are included, you will become a Silver member with faster job opportunities."
+    },
+    {
+      "id": 8,
+      "question": "What are the payment methods for freelancers?",
+      "answer": "Payments are typically made through trusted third-party platforms, such as Fiverr or Upwork. We ensure a secure and reliable payment process for freelancers."
+    }
+  ]
+  
