@@ -14,7 +14,7 @@ const Contact = () => {
   const [stateid, setstateid] = useState(0);
 
   return (
-    <div className=" mt-36">
+    <div id="contact" className=" mt-36"> 
      <div className="bg-primary text-white top-0 text-center py-8 lg:max-w-[250px] md:w-full mx-auto rounded-lg mb-12">
     <h3 className="text-3xl font-cinzel font-black ">Contact Us</h3>
   {/* Add other content as needed */}

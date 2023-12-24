@@ -1,10 +1,69 @@
 
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import googleIcon from "../../assets/icons/google.png";
 import linkedinIcon from "../../assets/icons/linked.png"; 
+import toast from "react-hot-toast";
+import { useState } from "react";
+import useAuth from "../../Hooks/useAuth";
 
 const Register = () => {
+  const { createUser, handleUpdateProfile } = useAuth(); 
+  const navigate = useNavigate();
+  const [passwordError, setPasswordError] = useState("");  
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+    const form = new FormData(e.currentTarget);  
+    const name = form.get("name");    
+    const photo = form.get("photo");
+    const email = form.get("email");
+    const password = form.get("password");
+    console.log(email, password, name, photo);
+
+    if (password.length < 6) {
+      setPasswordError("Password must be at least 6 characters long");
+      return;
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      setPasswordError("Email must be valid");
+      return;
+    }
+    if (!/[A-Z]/.test(password)) {
+      setPasswordError("Password must contain at least one capital letter");
+      return;
+    }
+
+    if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
+      setPasswordError("Password must contain at least one special character");
+      return;
+    }
+    createUser(email, password)
+      .then((result) => {
+        console.log(result.user);
+        handleUpdateProfile(name, photo) 
+          .then(() => {
+            // Swal.fire({
+            //   position: "top",
+            //   icon: "success",
+            //   title: "User created successfully",
+            //   showConfirmButton: false,
+            //   timer: 1500,
+            // });
+            toast.success("User created Successfully!", { duration: 3000 }); 
+            navigate("/");
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+
   return (
     <div
       className="min-h-screen flex items-center justify-center py-12
@@ -38,21 +97,53 @@ const Register = () => {
           <span className="text-gray-500 font-normal">OR</span>
           <span className="h-px w-16 bg-gray-300"></span>
         </div>
-        <form className="mt-8 space-y-6" action="#" method="POST">
+        <form onSubmit={handleRegister} className="mt-8 space-y-6" >
           <div className="relative">
             <div className="absolute right-0 mt-4">
               <svg xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2"
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
+            <label className="text-sm font-bold text-gray-700 tracking-wide">Name</label>
+            <input
+              className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+              type="text"
+              name="name"
+              placeholder="Enter your name" 
+            />
+          </div>
+          <div className="relative"> 
+            {/* <div className="absolute right-0 mt-4">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div> */}
             <label className="text-sm font-bold text-gray-700 tracking-wide">Email</label>
             <input
               className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
-              type="email"
-              name="email"
-              placeholder="mail@gmail.com"
+              type="text" 
+              name="email" 
+              placeholder="Enter your email" 
+            />
+          </div> 
+          <div className="relative">
+            {/* <div className="absolute right-0 mt-4">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div> */}
+            <label className="text-sm font-bold text-gray-700 tracking-wide">Photo URL</label>
+            <input
+              className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+              type="photo"
+              name="photo"
+              placeholder="Enter your photoURL" 
             />
           </div>
            <div className="mt-8 content-center">
@@ -66,6 +157,9 @@ const Register = () => {
               placeholder="Enter your password"
             
             />
+              {passwordError && (
+                  <p className="text-red-500 mt-2">{passwordError}</p>
+                )}
           </div>
           <div className="flex items-center justify-between">
             <div className="flex items-center">
@@ -91,7 +185,7 @@ const Register = () => {
               className="w-full flex justify-center bg-indigo-500 text-gray-100 p-4 rounded-full tracking-wide
               font-semibold focus:outline-none focus:shadow-outline hover:bg-indigo-600 shadow-lg cursor-pointer transition ease-in duration-300"
             >
-              Sign in
+              Register 
             </button>
           </div>
         </form>

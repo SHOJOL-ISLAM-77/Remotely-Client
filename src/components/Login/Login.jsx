@@ -1,10 +1,70 @@
 
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import googleIcon from "../../assets/icons/google.png";
 import linkedinIcon from "../../assets/icons/linked.png"; 
+import useAuth from "../../Hooks/useAuth";
+import { useState } from "react";
+import toast from "react-hot-toast";
 
 const Login = () => {
+
+  const { signInUser, googleSignIn } = useAuth();
+  const navigate = useNavigate();
+  const [loginError, setLoginError] = useState("");
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    const form = new FormData(e.currentTarget);
+    const email = form.get("email");
+    const password = form.get("password");
+    console.log(email, password);
+    setLoginError("");
+    signInUser(email, password)
+      .then((result) => {
+        console.log(result.user);
+        // Swal.fire({
+        //   position: "top",
+        //   icon: "success",
+        //   title: "User login successful",
+        //   showConfirmButton: false,
+        //   timer: 1500,
+        // });
+        toast.success("User login successful!", { duration: 3000 });
+        e.target.reset();
+        navigate("/");
+      })
+      .catch((error) => {
+        console.error(error);
+        if (
+          error.code === "auth/wrong-password" ||
+          error.code === "auth/user-not-found"
+        ) {
+          setLoginError("Invalid email or password. Please try again.");
+        } else {
+          setLoginError("An error occurred. Please try again later.");
+        }
+      });
+  };
+
+  const handleGoogleSign = () => {
+    googleSignIn()
+      .then((result) => {
+        console.log(result.user);
+        toast.success("User login successful!", { duration: 3000 });
+        navigate("/");
+      })
+      .then((error) => {
+        console.error(error);
+      });
+  };
+
+
+
+
+
+
+
   return (
     <div
       className="min-h-screen flex items-center justify-center py-12
@@ -25,9 +85,9 @@ const Login = () => {
           </p>
         </div>
         <div className="flex flex-row justify-center items-center space-x-3">
-			<span>
-           <img className=" w-8 h-8" src={googleIcon} alt="" />
-            </span>
+			<button onClick={handleGoogleSign} >
+          <img className=" w-8 h-8" src={googleIcon} alt="" />
+      </button>
 			<span>
             <img className="w-8 h-8" src={linkedinIcon} alt="" /> 
             </span>
@@ -38,7 +98,7 @@ const Login = () => {
           <span className="text-gray-500 font-normal">OR</span>
           <span className="h-px w-16 bg-gray-300"></span>
         </div>
-        <form className="mt-8 space-y-6" action="#" method="POST">
+        <form onSubmit={handleLogin} className="mt-8 space-y-6" action="#" method="POST">
           <div className="relative">
             <div className="absolute right-0 mt-4">
               <svg xmlns="http://www.w3.org/2000/svg"
@@ -85,6 +145,9 @@ const Login = () => {
               </Link>
             </div>
           </div>
+          {loginError && (
+              <p className="text-red-500 mt-2">{loginError}</p>
+            )}
           <div>
             <button
               type="submit"

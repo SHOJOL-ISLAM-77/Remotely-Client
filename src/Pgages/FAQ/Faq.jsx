@@ -4,8 +4,8 @@ import MemberFaq from "./MemberFaq";
 
 const Faq = () => {
     return (
-        <div>
-            <MemberFaq></MemberFaq> 
+        <div id="faq">  
+            <MemberFaq></MemberFaq>   
         </div>
     );
 };
