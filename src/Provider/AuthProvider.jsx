@@ -39,8 +39,8 @@ const logOut = () => {
 const handleUpdateProfile = (name, photo) => {
   setLoading(true);
   return updateProfile(auth.currentUser, {
-    displayName: name,
-    photoURL: photo,
+    displayName: name,  
+    photoURL: photo, 
   });
 };
      
@@ -63,7 +63,7 @@ const authInfo = {
     googleSignIn, 
     signInUser,
     logOut,
-    handleUpdateProfile
+    handleUpdateProfile 
 
 }
 

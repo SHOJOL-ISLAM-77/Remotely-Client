@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 
 
 import { Link, useNavigate } from "react-router-dom";
@@ -6,10 +7,14 @@ import linkedinIcon from "../../assets/icons/linked.png";
 import toast from "react-hot-toast";
 import { useState } from "react";
 import useAuth from "../../Hooks/useAuth";
+import useAxiosPublic from "../../Hooks/useAxiosPublic";
+// import { reset } from "nodemon";
 
 const Register = () => {
   const { createUser, handleUpdateProfile } = useAuth(); 
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
+  const axiosPublic = useAxiosPublic(); 
+  
   const [passwordError, setPasswordError] = useState("");  
 
   const handleRegister = (e) => {
@@ -39,29 +44,61 @@ const Register = () => {
       setPasswordError("Password must contain at least one special character");
       return;
     }
+
     createUser(email, password)
-      .then((result) => {
-        console.log(result.user);
-        handleUpdateProfile(name, photo) 
-          .then(() => {
-            // Swal.fire({
-            //   position: "top",
-            //   icon: "success",
-            //   title: "User created successfully",
-            //   showConfirmButton: false,
-            //   timer: 1500,
-            // });
-            toast.success("User created Successfully!", { duration: 3000 }); 
-            navigate("/");
-          })
-          .catch((error) => {
-            console.error(error);
-          });
+    .then(result => {
+      const loggedUser = result?.user;
+      console.log(loggedUser);
+      handleUpdateProfile(name, photo) 
+      .then(() =>{
+
+        const userInfo = {
+          name: name, 
+          // photoURL: data.photoURL,
+          photo: photo,
+          email: email,
+          
+      }
+
+      axiosPublic.post("/users", userInfo) 
+      .then(res => {
+         if(res.data.insertedId){   
+          // reset();
+          toast.success("User created Successfully!", { duration: 3000 }); 
+          navigate("/");  
+         }
       })
-      .catch((error) => {
-        console.error(error);
-      });
+       
+      }) 
+      .catch(err => {
+        console.log(err.message)
+      })
+    });
+
   };
+  //   createUser(email, password)
+  //     .then((result) => {
+  //       console.log(result.user);
+  //       handleUpdateProfile(name, photo) 
+  //         .then(() => {
+  //           // Swal.fire({
+  //           //   position: "top",
+  //           //   icon: "success",
+  //           //   title: "User created successfully",
+  //           //   showConfirmButton: false,
+  //           //   timer: 1500,
+  //           // });
+  //           toast.success("User created Successfully!", { duration: 3000 }); 
+  //           navigate("/");
+  //         })
+  //         .catch((error) => {
+  //           console.error(error);
+  //         });
+  //     })
+  //     .catch((error) => {
+  //       console.error(error);
+  //     });
+  // };
 
 
   return (

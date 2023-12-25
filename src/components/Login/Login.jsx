@@ -1,15 +1,16 @@
 
 
 import { Link, useNavigate } from "react-router-dom";
-import googleIcon from "../../assets/icons/google.png";
+
 import linkedinIcon from "../../assets/icons/linked.png"; 
 import useAuth from "../../Hooks/useAuth";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
 
-  const { signInUser, googleSignIn } = useAuth();
+  const { signInUser } = useAuth();
   const navigate = useNavigate();
   const [loginError, setLoginError] = useState("");
 
@@ -23,13 +24,6 @@ const Login = () => {
     signInUser(email, password)
       .then((result) => {
         console.log(result.user);
-        // Swal.fire({
-        //   position: "top",
-        //   icon: "success",
-        //   title: "User login successful",
-        //   showConfirmButton: false,
-        //   timer: 1500,
-        // });
         toast.success("User login successful!", { duration: 3000 });
         e.target.reset();
         navigate("/");
@@ -46,21 +40,6 @@ const Login = () => {
         }
       });
   };
-
-  const handleGoogleSign = () => {
-    googleSignIn()
-      .then((result) => {
-        console.log(result.user);
-        toast.success("User login successful!", { duration: 3000 });
-        navigate("/");
-      })
-      .then((error) => {
-        console.error(error);
-      });
-  };
-
-
-
 
 
 
@@ -80,18 +59,12 @@ const Login = () => {
           <h2 className="mt-6 text-3xl font-bold text-gray-900">
             Welcome Back!
           </h2>
-          <p className="mt-2 text-sm text-gray-600">
-            Please sign in to your account
+          <p className="mt-2 text-sm text-gray-600"> 
+            Please sign in to your account 
           </p>
         </div>
         <div className="flex flex-row justify-center items-center space-x-3">
-			<button onClick={handleGoogleSign} >
-          <img className=" w-8 h-8" src={googleIcon} alt="" />
-      </button>
-			<span>
-            <img className="w-8 h-8" src={linkedinIcon} alt="" /> 
-            </span>
-			<span></span>
+      <SocialLogin></SocialLogin>
 		</div>
         <div className="flex items-center justify-center space-x-2">
           <span className="h-px w-16 bg-gray-300"></span>

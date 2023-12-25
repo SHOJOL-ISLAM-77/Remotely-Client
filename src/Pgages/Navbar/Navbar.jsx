@@ -42,7 +42,7 @@ const Navbar = () => {
     <div>
       <nav
         data-aos="fade-down"
-        className=" bg-white/60 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 uppercase  font-noto text-uppercase font-semibold text-text-color lg:text-xl md:text-lg text-base"
+        className=" bg-white/60 dark:bg-gray-900 fixed w-full z-20 top-0 p-4 start-0 border-b border-gray-200 dark:border-gray-600 uppercase  font-noto text-uppercase font-semibold text-text-color lg:text-xl md:text-lg text-base"
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
           <p className="text-[#2155D3] font-noto text-2xl">
