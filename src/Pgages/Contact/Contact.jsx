@@ -102,9 +102,9 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className=" mt-36">
+    <div id="contact">
       <div className="bg-primary text-white top-0 text-center py-8 lg:max-w-[250px] md:w-full mx-auto rounded-lg mb-12">
-        <h3 className="text-3xl font-cinzel font-black ">Contact Us</h3>
+        <h3 className="text-3xl font-cinzel font-black mt-24">Contact Us</h3> 
         {/* Add other content as needed */}
       </div>
       <div className="grid lg:grid-cols-12 lg:grid-rows-1 grid-cols-1 px-5 md:gap-5">
@@ -285,7 +285,7 @@ const Contact = () => {
                   id="message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="px-4 py-3 flex items-center w-full appearance-none transition duration-300 ease-in-out text-heading text-sm focus:ring-0  border border-[#CCCCCC] focus:border-primary focus:shadow focus:outline-none focus:border-heading text-gray-900 rounded"
+                  className="px-4 py-3 flex items-center w-full appearance-none transition duration-300 ease-in-out text-heading  focus:ring-0  border border-[#CCCCCC] focus:border-primary focus:shadow focus:outline-none focus:border-heading  font-normal text-base text-gray-900rounded"
                   autoComplete="off"
                   spellCheck="false"
                   rows={4}
@@ -297,11 +297,11 @@ const Contact = () => {
                 )}
                 <p className="text-red-500 text-xs mt-1"></p>
               </div>
-              <div>
+              <div className="px-3">
                 <button
                   // data-variant="flat"
                   type="submit"
-                  className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none"
+                  className="hover:shadow-form rounded-md bg-primary py-3 px-8 text-center text-base font-semibold text-white outline-none"
                 >
                   Send Message
                 </button>

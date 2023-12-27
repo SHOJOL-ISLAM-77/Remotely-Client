@@ -27,14 +27,14 @@ useEffect(() => {
   };
 
   return (
-    <div className="mx-auto py-8">
-       <SectionTitle
-        subHeading={"Interested in joining our team as a freelancer? Here's how you can get started:"}
-        heading={'Join Our Team'} 
-      />
-      <div className="mx-auto">
+    <div className="mx-auto">
+     <SectionTitle
+       heading="Are you a Freelancer?"
+     >
+     </SectionTitle>
+      <div className="mx-auto"> 
         {faqData.map((item) => (
-          <div key={item.id} className="mb-4">
+          <div key={item.id} className="mb-4"> 
             <div
               className="flex justify-between items-center bg-gray-200 py-2 px-4 cursor-pointer"
               onClick={() => handleToggle(item.id)}

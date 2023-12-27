@@ -1,6 +1,7 @@
 
 
 import { useState, useEffect } from 'react';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const ClientFaq = () => {
 const [faqData, setFaqData] = useState([]);
@@ -25,7 +26,11 @@ useEffect(() => {
   };
 
   return (
-    <div className="mx-auto py-8">
+    <div className="mx-auto">
+      <SectionTitle
+       heading="Do you need a Freelancer?"
+     >
+     </SectionTitle>
       <div className="mx-auto">
         {faqData.map((item) => (
           <div key={item.id} className="mb-4">

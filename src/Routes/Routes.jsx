@@ -8,7 +8,7 @@ import About from "../Pgages/About/About";
 import Contact from "../Pgages/Contact/Contact";
 import Login from "../components/Login/Login";
 import Register from "../components/Registration/Register";
-import Faq from "../Pgages/FAQ/FAQ";
+// import Faq from "../Pgages/FAQ/FAQ";
 
 export const router = createBrowserRouter([
     {
