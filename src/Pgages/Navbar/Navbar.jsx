@@ -253,8 +253,8 @@ const handleLogOut = () => {
 // profile menu component
 const profileMenuItems = [
   {
-    label: "My Profile",
-    icon: UserCircleIcon,
+    label: "Dashboard",
+    icon: UserCircleIcon, 
     to: "/profile", // Add the to property with the desired link
   },
   {
@@ -289,16 +289,19 @@ function ProfileMenu() {
       <MenuHandler>
         <Button
           variant="text"
-          color="blue-gray"
-          className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2"
+          color="blue-gray" 
+          className="flex items-center justify-center rounded-lg p-2" 
         >
-           {photo ? (
+             {
+                  name && <p className="text-base font-inter text-semibold mr-6">{user?.displayName}</p>
+                } 
+               {photo ? (
                    <Avatar
                    variant="circular"
                    size="sm"
                    alt="tania andrew"
-                   className="border border-gray-900 p-0.5"
-                   src={photo}
+                   className="border border-gray-900 p-0.5"   
+                   src={photo} 
                  />
                 ) : (
                   <Avatar

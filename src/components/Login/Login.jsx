@@ -2,7 +2,7 @@
 
 import { Link, useNavigate } from "react-router-dom";
 
-import linkedinIcon from "../../assets/icons/linked.png"; 
+// import linkedinIcon from "../../assets/icons/linked.png"; 
 import useAuth from "../../Hooks/useAuth";
 import { useState } from "react";
 import toast from "react-hot-toast";
@@ -40,8 +40,6 @@ const Login = () => {
         }
       });
   };
-
-
 
 
   return (
