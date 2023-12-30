@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="md:bg-gradient-to-r from-[#2b7e67]  mt-14 to-[#535DA1] bg-white">
+      <footer className="bg-gradient-to-r from-[#2b7e67]  mt-14 to-[#535DA1] bg-white">
         <div className="container py-16 mx-auto ">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>

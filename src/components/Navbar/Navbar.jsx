@@ -46,7 +46,7 @@ const Navbar = () => {
       >
         Home
       </a>
-   
+
       <a
         href="#Featured"
         onClick={() => handleSetActive("Featured")}
@@ -129,7 +129,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="lg:container w-full mx-auto">
+    <nav className="lg:container w-full mx-auto relative z-30">
       <div className={`fixed z-10 min-h-12 lg:container w-full top-3 p-5`}>
         <div
           className={`${
@@ -144,12 +144,9 @@ const Navbar = () => {
             </div>
             <div className="lg:flex gap-5 flex-grow hidden">{NavLinks}</div>
             <div className="">
-              <a href=""></a>
               <a href="tel:+8801935633612">
                 <LuPhoneCall
-                  className={`text-black  bg-white text-5xl rounded-full p-3 ${
-                    scrolling && "bg-[#14B789] text-white"
-                  } hover:bg-[#14B789] hover:text-white`}
+                  className={` text-5xl rounded-full p-3 ${scrolling ? 'bg-primary text-white' : "bg-white text-black" } hover:bg-[#14B789] hover:text-white `}
                 />
               </a>
             </div>
