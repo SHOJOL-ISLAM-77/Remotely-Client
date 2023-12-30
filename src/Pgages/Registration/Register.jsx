@@ -1,22 +1,20 @@
 /* eslint-disable no-undef */
 
 import { Link, useNavigate } from "react-router-dom";
-import googleIcon from "../../assets/icons/google.png";
-import linkedinIcon from "../../assets/icons/linked.png";
 import toast from "react-hot-toast";
 import { useState } from "react";
 import useAuth from "../../Hooks/useAuth";
 import useAxiosPublic from "../../Hooks/useAxiosPublic";
-// import { reset } from "nodemon";
+import { ImageUpload } from "../../Utils/UploadImage";
 
 const Register = () => {
-  const { createUser, handleUpdateProfile } = useAuth();
+  const { createUser, updateUserProfile } = useAuth();
   const navigate = useNavigate();
   const axiosPublic = useAxiosPublic();
 
   const [passwordError, setPasswordError] = useState("");
 
-  const handleRegister = (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
     const name = form.get("name");
@@ -24,7 +22,6 @@ const Register = () => {
     const email = form.get("email");
     const password = form.get("password");
     const role = form.get("role");
-    console.log(email, password, name, photo, role);
 
     if (password.length < 6) {
       setPasswordError("Password must be at least 6 characters long");
@@ -45,60 +42,42 @@ const Register = () => {
       return;
     }
 
-    createUser(email, password).then((result) => {
-      const loggedUser = result?.user;
-      console.log(loggedUser);
-      handleUpdateProfile(name, photo)
-        .then(() => {
-          const userInfo = {
-            name: name,
-            photo: photo,
-            email: email,
-            role: role,
-          };
+    try {
+      const imageData = await ImageUpload(photo);
+      console.log(imageData.data.display_url);
 
-          axiosPublic.post("/users", userInfo).then((res) => {
-            if (res.data.insertedId) {
-              // reset();
-              toast.success("User created Successfully!", { duration: 3000 });
-              navigate("/");
-            }
-          });
-        })
-        .catch((err) => {
-          console.log(err.message);
-        });
-    });
+      const result = await createUser(email, password);
+      console.log(result);
+
+      await updateUserProfile(name, imageData.data.display_url);
+
+      const userInfo = {
+        name: name,
+        photo: imageData.data.display_url,
+        email: email,
+        role: role,
+      };
+      console.log(userInfo);
+
+      axiosPublic.post("/api/v1/create-user", userInfo).then((res) => {
+        if (res.data.insertedId) {
+          toast.success("User created Successfully!", { duration: 3000 });
+          navigate("/");
+        }
+      });
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   return (
-    <div
-      className="min-h-screen flex items-center justify-center py-12
-      "
-    >
+    <div className=" flex items-center justify-center ">
       <div className=" bg-black opacity-60 inset-0 z-0"></div>
       <div className="max-w-md w-full space-y-8 p-10 bg-white rounded-xl z-10">
         <div className="text-center">
           <h2 className="mt-6 text-3xl font-bold text-gray-900">
-            Welcome Back!
+            Please Sign Up to your account
           </h2>
-          <p className="mt-2 text-sm text-gray-600">
-            Please sign in to your account
-          </p>
-        </div>
-        <div className="flex flex-row justify-center items-center space-x-3">
-          <span>
-            <img className=" w-8 h-8" src={googleIcon} alt="" />
-          </span>
-          <span>
-            <img className="w-8 h-8" src={linkedinIcon} alt="" />
-          </span>
-          <span></span>
-        </div>
-        <div className="flex items-center justify-center space-x-2">
-          <span className="h-px w-16 bg-gray-300"></span>
-          <span className="text-gray-500 font-normal">OR</span>
-          <span className="h-px w-16 bg-gray-300"></span>
         </div>
         <form onSubmit={handleRegister} className="mt-8 space-y-6">
           <div className="relative">
@@ -122,7 +101,7 @@ const Register = () => {
               Name
             </label>
             <input
-              className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+              className="w-full py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
               type="text"
               name="name"
               placeholder="Enter your name"
@@ -134,22 +113,10 @@ const Register = () => {
               Email
             </label>
             <input
-              className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
-              type="text"
+              className="w-full py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
+              type="email"
               name="email"
               placeholder="Enter your email"
-              required
-            />
-          </div>
-          <div className="relative">
-            <label className="text-sm font-bold text-gray-700 tracking-wide">
-              Photo URL
-            </label>
-            <input
-              className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
-              type="photo"
-              name="photo"
-              placeholder="Enter your photoURL"
               required
             />
           </div>
@@ -158,7 +125,7 @@ const Register = () => {
               Password
             </label>
             <input
-              className="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+              className="w-full content-center py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
               type="password"
               name="password"
               placeholder="Enter your password"
@@ -170,10 +137,22 @@ const Register = () => {
           </div>
           <div className="relative">
             <label className="text-sm font-bold text-gray-700 tracking-wide">
+              Upload Photo
+            </label>
+            <input
+              className="w-full border-gray-300 bg-white file-input file-input-bordered file-input-success"
+              type="file"
+              name="photo"
+              accept="image/*"
+              required
+            />
+          </div>
+          <div className="relative">
+            <label className="text-sm font-bold text-gray-700 tracking-wide">
               User Type
             </label>
             <select
-              className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+              className="w-full py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
               name="role"
             >
               <option value="" disabled defaultValue>
@@ -181,7 +160,7 @@ const Register = () => {
               </option>
               <option value="buyer">Buyer</option>
               <option value="freelancer">Freelancer</option>
-            </select> 
+            </select>
           </div>
           <div className="flex items-center justify-between">
             <div className="flex items-center">
@@ -189,7 +168,7 @@ const Register = () => {
                 id="remember_me"
                 name="remember_me"
                 type="checkbox"
-                className="h-4 w-4 bg-indigo-500 focus:ring-indigo-400 border-gray-300 rounded"
+                className="h-4 w-4  focus:ring-indigo-400 border-gray-300 bg-white rounded"
               />
               <label
                 htmlFor="remember_me"
@@ -217,15 +196,6 @@ const Register = () => {
             </button>
           </div>
         </form>
-        <p className="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
-          <span>Already have an account?</span>
-          <Link
-            to="/login"
-            className="text-indigo-500 hover:text-indigo-500 no-underline hover:underline cursor-pointer transition ease-in duration-300"
-          >
-            Login
-          </Link>
-        </p>
       </div>
     </div>
   );

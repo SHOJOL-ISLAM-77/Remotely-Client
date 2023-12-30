@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Banner.css";
 const Banner = () => {
   return (
@@ -22,9 +23,9 @@ const Banner = () => {
               define your journey from the beginning.
             </h2>
             <br />
-            <button className="text-2xl bg-[#535DA1] p-4 px-5 rounded-md font-semibold text-white transition duration-300 ease-in-out hover:shadow-black shadow-lg hover:bg-white hover:text-primary">
+            <Link to="/createUser" className="text-2xl bg-[#535DA1] p-4 px-5 rounded-md font-semibold text-white transition duration-300 ease-in-out hover:shadow-black shadow-lg hover:bg-white hover:text-primary">
               Let's begin
-            </button>
+            </Link>
           </div>
           <div className="relative lg:block hidden">
             <div className="bg-white absolute rounded-full left-24 w-[390px] h-[390px]"></div>

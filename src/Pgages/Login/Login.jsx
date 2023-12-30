@@ -39,18 +39,13 @@ const Login = () => {
   };
 
   return (
-    <div
-      className="min-h-screen flex items-center justify-center py-12"
-    >
+    <div className="">
       <div className=" bg-black opacity-60 inset-0 z-0"></div>
       <div className="max-w-md w-full space-y-8 p-10 bg-white rounded-xl z-10">
         <div className="text-center">
           <h2 className="mt-6 text-3xl font-bold text-gray-900">
-            Welcome Back!
+          Please sign in to your account
           </h2>
-          <p className="mt-2 text-sm text-gray-600">
-            Please sign in to your account
-          </p>
         </div>
         <div className="flex flex-row justify-center items-center space-x-3">
           <SocialLogin></SocialLogin>
@@ -78,7 +73,6 @@ const Login = () => {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  stroke-width="2"
                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                 ></path>
               </svg>
@@ -87,7 +81,7 @@ const Login = () => {
               Email
             </label>
             <input
-              className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+              className="w-full bg-white py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
               type="email"
               name="email"
               placeholder="mail@gmail.com"
@@ -98,7 +92,7 @@ const Login = () => {
               Password
             </label>
             <input
-              className="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
+              className="w-full content-center bg-white py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
               type="password"
               name="password"
               placeholder="Enter your password"
@@ -110,7 +104,7 @@ const Login = () => {
                 id="remember_me"
                 name="remember_me"
                 type="checkbox"
-                className="h-4 w-4 bg-indigo-500 focus:ring-indigo-400 border-gray-300 rounded"
+                className="h-4 w-4  bg-indigo-500 focus:ring-indigo-400 border-gray-300 rounded"
               />
               <label
                 htmlFor="remember_me"
@@ -139,15 +133,7 @@ const Login = () => {
             </button>
           </div>
         </form>
-        <p className="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
-          <span>Don't have an account?</span>
-          <Link
-            to="/register"
-            className="text-indigo-500 hover:text-indigo-500 no-underline hover:underline cursor-pointer transition ease-in duration-300"
-          >
-            Sign up
-          </Link>
-        </p>
+       
       </div>
     </div>
   );
