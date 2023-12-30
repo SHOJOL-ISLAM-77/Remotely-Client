@@ -1,7 +1,7 @@
 
 
 import { useState, useEffect } from 'react';
-import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 const MemberFaq = () => {
 const [faqData, setFaqData] = useState([]);

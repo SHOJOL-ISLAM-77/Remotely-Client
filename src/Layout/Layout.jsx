@@ -1,15 +1,21 @@
+// import { Outlet } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import Navbar from "../Pgages/Navbar/Navbar";
-import Footer from "../Pgages/Footer/Footer";
+import Footer from "../components/Footer/Footer";
+import Navbar from "../components/Navbar/Navbar";
 
 const Layout = () => {
-    return (
-        <div> 
-            <Navbar></Navbar> 
-            <Outlet></Outlet> 
-            <Footer></Footer>  
-        </div>
-    );
+  return (
+    <div>
+      <Navbar />
+      <div
+        className="min-h-screen"
+        style={{ minHeight: "calc(100vh - 410px)" }}
+      >
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
 export default Layout;

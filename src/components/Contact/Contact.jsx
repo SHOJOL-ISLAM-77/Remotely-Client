@@ -68,21 +68,6 @@ const Contact = () => {
     } else {
       setMessageError("");
     }
-
-    // Prepare the data to be sent
-    // const data = {
-    //   user_name: name,
-    //   user_email: email,
-    //   message: message,
-    //   company_employees: selectedCompanyEmployees,
-    //   talk_about: selectedTopic,
-    //   date: selectedDate,
-    //   country: countryid,
-    //   state: stateid,
-    //   language: "", // You can add the selected language here
-    // };
-
-    // Send email using emailjs
     emailjs
       .sendForm(
         "service_8k835ya",

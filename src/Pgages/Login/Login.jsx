@@ -1,15 +1,12 @@
-
-
 import { Link, useNavigate } from "react-router-dom";
 
-// import linkedinIcon from "../../assets/icons/linked.png"; 
+// import linkedinIcon from "../../assets/icons/linked.png";
 import useAuth from "../../Hooks/useAuth";
 import { useState } from "react";
 import toast from "react-hot-toast";
-import SocialLogin from "../SocialLogin/SocialLogin";
+import SocialLogin from "../../components/SocialLogin/SocialLogin";
 
 const Login = () => {
-
   const { signInUser } = useAuth();
   const navigate = useNavigate();
   const [loginError, setLoginError] = useState("");
@@ -41,15 +38,9 @@ const Login = () => {
       });
   };
 
-
   return (
     <div
-      className="min-h-screen flex items-center justify-center py-12
-      "
-    //   style={{
-    //     backgroundImage:
-    //       "url(https://images.unsplash.com/photo-1525302220185-c387a117886e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)",
-    //   }}
+      className="min-h-screen flex items-center justify-center py-12"
     >
       <div className=" bg-black opacity-60 inset-0 z-0"></div>
       <div className="max-w-md w-full space-y-8 p-10 bg-white rounded-xl z-10">
@@ -57,28 +48,44 @@ const Login = () => {
           <h2 className="mt-6 text-3xl font-bold text-gray-900">
             Welcome Back!
           </h2>
-          <p className="mt-2 text-sm text-gray-600"> 
-            Please sign in to your account 
+          <p className="mt-2 text-sm text-gray-600">
+            Please sign in to your account
           </p>
         </div>
         <div className="flex flex-row justify-center items-center space-x-3">
-      <SocialLogin></SocialLogin>
-		</div>
+          <SocialLogin></SocialLogin>
+        </div>
         <div className="flex items-center justify-center space-x-2">
           <span className="h-px w-16 bg-gray-300"></span>
           <span className="text-gray-500 font-normal">OR</span>
           <span className="h-px w-16 bg-gray-300"></span>
         </div>
-        <form onSubmit={handleLogin} className="mt-8 space-y-6" action="#" method="POST">
+        <form
+          onSubmit={handleLogin}
+          className="mt-8 space-y-6"
+          action="#"
+          method="POST"
+        >
           <div className="relative">
             <div className="absolute right-0 mt-4">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-green-500"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
               </svg>
             </div>
-            <label className="text-sm font-bold text-gray-700 tracking-wide">Email</label>
+            <label className="text-sm font-bold text-gray-700 tracking-wide">
+              Email
+            </label>
             <input
               className="w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500"
               type="email"
@@ -86,7 +93,7 @@ const Login = () => {
               placeholder="mail@gmail.com"
             />
           </div>
-           <div className="mt-8 content-center">
+          <div className="mt-8 content-center">
             <label className="text-sm font-bold text-gray-700 tracking-wide">
               Password
             </label>
@@ -95,7 +102,6 @@ const Login = () => {
               type="password"
               name="password"
               placeholder="Enter your password"
-            
             />
           </div>
           <div className="flex items-center justify-between">
@@ -106,19 +112,23 @@ const Login = () => {
                 type="checkbox"
                 className="h-4 w-4 bg-indigo-500 focus:ring-indigo-400 border-gray-300 rounded"
               />
-              <label htmlFor="remember_me" className="ml-2 block text-sm text-gray-900">
+              <label
+                htmlFor="remember_me"
+                className="ml-2 block text-sm text-gray-900"
+              >
                 Remember me
               </label>
             </div>
             <div className="text-sm">
-              <Link to="/forgot-password" className="font-medium text-indigo-500 hover:text-indigo-500">
+              <Link
+                to="/forgot-password"
+                className="font-medium text-indigo-500 hover:text-indigo-500"
+              >
                 Forgot your password?
               </Link>
             </div>
           </div>
-          {loginError && (
-              <p className="text-red-500 mt-2">{loginError}</p>
-            )}
+          {loginError && <p className="text-red-500 mt-2">{loginError}</p>}
           <div>
             <button
               type="submit"
@@ -131,8 +141,8 @@ const Login = () => {
         </form>
         <p className="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
           <span>Don't have an account?</span>
-          <Link  
-            to="/register"  
+          <Link
+            to="/register"
             className="text-indigo-500 hover:text-indigo-500 no-underline hover:underline cursor-pointer transition ease-in duration-300"
           >
             Sign up

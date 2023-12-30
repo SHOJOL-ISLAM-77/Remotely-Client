@@ -1,0 +1,43 @@
+/*---------------------------------------
+    HERO              
+  -----------------------------------------*/
+.hero {
+    background: #14B789;
+    position: relative;
+    overflow: hidden;
+    padding-top: 330px;
+    padding-bottom: 330px;
+}
+
+.hero svg {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    pointer-events: none;
+}
+
+/*---------------------------------------
+    RESPONSIVE STYLES               
+  -----------------------------------------*/
+@media screen and (min-width: 1600px) {
+    .hero {
+        padding-top: 380px;
+        padding-bottom: 380px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hero {
+        padding-top: 200px;
+        padding-bottom: 400px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .add-bg {
+        background-color: #fff;
+    }
+}
