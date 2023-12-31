@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import SocialLogin from "../../components/SocialLogin/SocialLogin";
 
 const Login = () => {
-  const { signInUser } = useAuth();
+  const { signIn } = useAuth();
   const navigate = useNavigate();
   const [loginError, setLoginError] = useState("");
 
@@ -18,7 +18,7 @@ const Login = () => {
     const password = form.get("password");
     console.log(email, password);
     setLoginError("");
-    signInUser(email, password)
+    signIn(email, password)
       .then((result) => {
         console.log(result.user);
         toast.success("User login successful!", { duration: 3000 });

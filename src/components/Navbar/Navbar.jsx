@@ -1,13 +1,16 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
 import "../Banner/Banner.css";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
   const [activeSection, setActiveSection] = useState("Home");
   const [showMenu, setShowMenu] = useState(false);
+  const { user, logOut } = useContext(AuthContext);
+  console.log(user);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -143,18 +146,46 @@ const Navbar = () => {
               </h1>
             </div>
             <div className="lg:flex gap-5 flex-grow hidden">{NavLinks}</div>
-            <div className="">
+            <div className="flex gap-5 items-center">
               <a href="tel:+8801935633612">
                 <LuPhoneCall
-                  className={` text-5xl rounded-full p-3 ${scrolling ? 'bg-primary text-white' : "bg-white text-black" } hover:bg-[#14B789] hover:text-white `}
+                  className={` text-5xl rounded-full p-3 ${
+                    scrolling ? "bg-primary text-white" : "bg-white text-black"
+                  } hover:bg-[#14B789] hover:text-white `}
                 />
               </a>
+              <a className="lg:hidden xl:block md:block hidden">{user?.displayName}</a>
+
+              <div className="">
+                {user && (
+                  <div className="dropdown dropdown-bottom dropdown-end">
+                    <img
+                      tabIndex={0}
+                      role="button"
+                      className="object-cover w-14 h-14 rounded-full"
+                      src={user?.photoURL}
+                      alt=""
+                    />
+                    <ul
+                      tabIndex={0}
+                      className="dropdown-content z-[1] menu p-2 mt-4 shadow bg-black text-white rounded-box w-52"
+                    >
+                      <li>
+                        <Link to="dashboard">Dashboard</Link>
+                      </li>
+                      <li>
+                        <button onClick={logOut}>Logout</button>
+                      </li>
+                    </ul>
+                  </div>
+                )}
+              </div>
             </div>
             <div
               className="lg:hidden text-2xl "
               onClick={() => setShowMenu(!showMenu)}
             >
-              {showMenu ? <FaTimes /> : <FaBars />}{" "}
+              {showMenu ? <FaTimes /> : <FaBars />}
             </div>
           </div>
 
