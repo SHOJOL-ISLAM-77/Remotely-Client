@@ -105,11 +105,11 @@ const Contact = () => {
                 </div>
               </div>
               <div className=" items-center gap-5">
-                <div className="w-full grid grid-cols-2 gap-x-5">
+                <div className="w-full grid md:grid-cols-2 grid-cols-1 gap-x-5">
                   <div className="mb-3 relative">
                     <label
                       htmlFor="companyEmployees"
-                      className="mb-3 block text-base font-medium text-[#07074D]"
+                      className="mb-3 block sm:text-base text-sm font-medium text-[#07074D] "
                     >
                       Company Employees
                     </label>
@@ -188,7 +188,7 @@ const Contact = () => {
                       name="country"
                       required
                     >
-                       <option >Select Your Country</option>
+                       <option >Your Country</option>
                       {allCounters?.map((country) => (
                         <option value={country} key={country}>{country}</option>
                       ))}
@@ -206,7 +206,7 @@ const Contact = () => {
                       name="state"
                       required
                     >
-                      <option >Select Your State</option>
+                      <option >Your State</option>
                       {state?.map((state) => (
                         <option value={state} key={state}>{state}</option>
                       ))}
@@ -224,7 +224,7 @@ const Contact = () => {
                       name="language"
                       required
                     >
-                      <option defaultChecked>Select Your Language</option>
+                      <option defaultChecked>Your Language</option>
                       <option value="English">English</option>
                       <option value="Hindi">Hindi</option>
                       <option value="Bangla">Bangla</option>

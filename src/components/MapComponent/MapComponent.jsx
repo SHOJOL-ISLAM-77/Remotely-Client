@@ -2,7 +2,7 @@ import { MapContainer, TileLayer, Polygon, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
 
 const MapComponent = () => {
-  const position = [25.4451, 89.7930]; // Latitude and Longitude for Dhaka
+  const position = [25.8072, 89.6295]; // Latitude and Longitude for Dhaka
   const polygonCoords = [
     [23.8103, 90.4125], // Start repeating the coordinates
     [23.8107, 90.4127],
@@ -10,7 +10,7 @@ const MapComponent = () => {
     [23.8100, 90.4130], // End repeating the coordinates
   ];
 
-  const markerPosition = [23.811, 90.412]; // Latitude and Longitude for the marker
+  const markerPosition = [25.8072, 89.6295]; // Latitude and Longitude for the marker
 
   return (
     

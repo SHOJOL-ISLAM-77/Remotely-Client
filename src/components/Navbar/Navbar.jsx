@@ -92,7 +92,7 @@ const Navbar = () => {
         </ul>
       </div>
       <a
-        href="#WhatWeDo"
+        href="#whatWeDo"
         onClick={() => handleSetActive("WhatWeDo")}
         className={`${
           activeSection === "WhatWeDo"

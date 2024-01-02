@@ -15,7 +15,7 @@ const Banner = () => {
             <br />
             <br />
             <br />
-            <h2 className="xl:text-2xl text-lg p-2 bg-white lg:p-4 px-5 rounded-lg  font-semibold text-[#14B789]">
+            <h2 className="xl:text-xl  text-md p-2 bg-white lg:p-4 px-5 rounded-lg  font-semibold text-[#14B789]">
               We help freelancers grow by showcasing their skills and connecting
               them with global buyers. Whether you're experienced or just
               starting, our community transforms your skills into successful
