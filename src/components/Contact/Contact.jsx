@@ -54,18 +54,27 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="container mx-auto">
+    <div id="contact" className="container mx-auto px-3 md:px-0">
       <SectionTitle heading={"Contact Us"} />
       <br />
+      <div className="text-center">
+        <h3 className="text-xl text-[#1F2937] font-noto">
+          {" "}
+          <span className=" text-orange-700 font-bold  text-2xl">LET'S </span> 
+          Start A Ptoject
+        </h3>
+        <p>We are available for freelance projects</p>
+      </div>
+      <br />
 
-      <div className="grid lg:grid-cols-12 lg:grid-rows-1 grid-cols-1 px-5 md:gap-5">
-        <div className="col-span-4">
+      <div className="flex justify-between flex-col lg:flex-row lg:gap-14 items-center">
+        <div className="col-span-4 flex-1 w-full">
           <ContactLeft></ContactLeft>
         </div>
         <div className="col-span-8">
           <div className="mx-auto lg:max-w-[650px] md:w-full">
             <form ref={form} onSubmit={sendEmail}>
-              <div className="flex lg:flex-row flex-col gap-5 px-3 w-full">
+              <div className="flex lg:flex-row flex-col gap-5 w-full">
                 <div className="mb-3 w-full">
                   <label
                     htmlFor="name"
@@ -95,7 +104,7 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              <div className=" items-center px-3 gap-5">
+              <div className=" items-center gap-5">
                 <div className="w-full grid grid-cols-2 gap-x-5">
                   <div className="mb-3 relative">
                     <label
@@ -223,7 +232,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative mb-4 px-3">
+              <div className="relative mb-4">
                 <label
                   htmlFor="message"
                   className="block font-semibold text-sm leading-none mb-3 text-[#07074D]"
