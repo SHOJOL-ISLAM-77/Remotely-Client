@@ -5,9 +5,10 @@ import useAuth from "../../Hooks/useAuth";
 import { useState } from "react";
 import toast from "react-hot-toast";
 import SocialLogin from "../../components/SocialLogin/SocialLogin";
+import { getToken, saveUser } from "../../API/User/User";
 
 const Login = () => {
-  const { signIn } = useAuth();
+  const { signIn, signInWithGoogle } = useAuth();
   const navigate = useNavigate();
   const [loginError, setLoginError] = useState("");
 
@@ -38,6 +39,26 @@ const Login = () => {
       });
   };
 
+  
+  // Handle Google Signin
+  const handleGoogleSignIn = async () => {
+    try {
+      //2. User Registration using google
+      const result = await signInWithGoogle()
+
+      //4. save user data in database
+      const dbResponse = await saveUser(result?.user)
+      console.log(dbResponse)
+
+      //5. get token
+      await getToken(result?.user?.email)
+      navigate('/')
+      toast.success('Signup Successful')
+    } catch (err) {
+      console.log(err)
+      toast.error(err?.message)
+    }
+  }
   return (
     <div className="">
       <div className=" bg-black opacity-60 inset-0 z-0"></div>

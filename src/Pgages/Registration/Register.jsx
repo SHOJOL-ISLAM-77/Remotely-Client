@@ -1,21 +1,21 @@
 /* eslint-disable no-undef */
-
+import { FaSpinner } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { useState } from "react";
 import useAuth from "../../Hooks/useAuth";
-import useAxiosPublic from "../../Hooks/useAxiosPublic";
 import { ImageUpload } from "../../Utils/UploadImage";
+import { getToken, saveUser } from "../../API/User/User";
 
 const Register = () => {
-  const { createUser, updateUserProfile } = useAuth();
+  const { createUser, updateUserProfile,  } = useAuth();
   const navigate = useNavigate();
-  const axiosPublic = useAxiosPublic();
-
+  const [loading, setLoading] = useState(false);
   const [passwordError, setPasswordError] = useState("");
 
   const handleRegister = async (e) => {
     e.preventDefault();
+    setLoading(true);
     const form = new FormData(e.currentTarget);
     const name = form.get("name");
     const photo = form.get("photo");
@@ -25,20 +25,24 @@ const Register = () => {
 
     if (password.length < 6) {
       setPasswordError("Password must be at least 6 characters long");
+      setLoading(false);
       return;
     }
 
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setPasswordError("Email must be valid");
+      setLoading(false);
       return;
     }
     if (!/[A-Z]/.test(password)) {
       setPasswordError("Password must contain at least one capital letter");
+      setLoading(false);
       return;
     }
 
     if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) {
       setPasswordError("Password must contain at least one special character");
+      setLoading(false);
       return;
     }
 
@@ -51,22 +55,19 @@ const Register = () => {
 
       await updateUserProfile(name, imageData.data.display_url);
 
-      const userInfo = {
-        name: name,
-        photo: imageData.data.display_url,
-        email: email,
-        role: role,
-      };
-      console.log(userInfo);
+      const res = await saveUser(result?.user, role);
+      console.log(res);
 
-      axiosPublic.post("/api/v1/create-user", userInfo).then((res) => {
-        if (res.data.insertedId) {
-          toast.success("User created Successfully!", { duration: 3000 });
-          navigate("/");
-        }
-      });
+      await getToken(result?.user?.email);
+
+      navigate("/");
+      toast.success("User created Successfully!", { duration: 3000 });
+      setLoading(false);
     } catch (err) {
       console.log(err);
+      setLoading(false);
+      setPasswordError(err.message);
+      toast.error(err.message, { duration: 3000 });
     }
   };
 
@@ -131,9 +132,6 @@ const Register = () => {
               placeholder="Enter your password"
               required
             />
-            {passwordError && (
-              <p className="text-red-500 mt-2">{passwordError}</p>
-            )}
           </div>
           <div className="relative">
             <label className="text-sm font-bold text-gray-700 tracking-wide">
@@ -162,6 +160,9 @@ const Register = () => {
               <option value="freelancer">Freelancer</option>
             </select>
           </div>
+          {passwordError && (
+            <p className="text-red-500 mt-2">{passwordError}</p>
+          )}
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <input
@@ -192,7 +193,7 @@ const Register = () => {
               className="w-full flex justify-center bg-indigo-500 text-gray-100 p-4 rounded-full tracking-wide
               font-semibold focus:outline-none focus:shadow-outline hover:bg-indigo-600 shadow-lg cursor-pointer transition ease-in duration-300"
             >
-              Register
+              {loading ? <FaSpinner className="animate-spin" /> : " Register"}
             </button>
           </div>
         </form>

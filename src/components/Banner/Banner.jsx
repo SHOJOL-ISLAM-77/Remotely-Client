@@ -4,12 +4,12 @@ const Banner = () => {
   return (
     <div>
       <section
-        className="h-[750px] px-4 pt-56 md:pt-0 flex justify-center items-center w-full bg-[url('https://i.ibb.co/YyFw6p1/Screenshot-2023-12-29-225343.png')] bg-cover"
+        className="h-[750px] px-4 pt-40 md:pt-0 flex justify-center items-center w-full bg-[url('https://i.ibb.co/YyFw6p1/Screenshot-2023-12-29-225343.png')] bg-cover"
         id="/"
       >
         <div className="lg:container mx-auto flex justify-between items-center flex-col md:flex-row">
-          <div className="pl-3 flex-grow mt-5 text-center">
-            <h1 className="xl:text-3xl lg:text-[23px] sm:text-3xl text-3xl p-2 md:bg-white lg:p-4 px-5 rounded-full inline text-black font-semibold">
+          <div className="flex-grow mt-5 text-center">
+            <h1 className="xl:text-3xl lg:text-[23px] sm:text-3xl text-3xl p-2 text-white md:bg-white lg:p-4 px-5 rounded-full inline md:text-black font-semibold">
               Freelance with Skills, Fulfill Your Dream
             </h1>
             <br />
@@ -23,7 +23,8 @@ const Banner = () => {
               define your journey from the beginning.
             </h2>
             <br />
-            <Link to="/createUser" className="text-2xl bg-[#535DA1] p-4 px-5 rounded-md font-semibold text-white transition duration-300 ease-in-out hover:shadow-black shadow-lg hover:bg-white hover:text-primary">
+            <br />
+            <Link to="/createUser" className="text-xl md:text-2xl bg-[#535DA1] p-4 px-5 rounded-md font-semibold text-white transition duration-300 ease-in-out hover:shadow-black shadow-lg hover:bg-white hover:text-primary">
               Let's begin
             </Link>
           </div>

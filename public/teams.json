@@ -1,53 +1,39 @@
-
-
 [
-    {
-      "image": "https://i.ibb.co/J2nTMpd/profile-pic8.png",
-      "title": "Crafting Dreams",
-      "quote": "Where Ideas Soar and Creativity Ignites! Sweetable dreams await.",
-      "links": {
-        "website": "https://www.craftingdreams.com",
-        "socialMedia": {
-          "instagram": "https://www.instagram.com/craftingdreams",
-          "twitter": "https://twitter.com/craftingdreams"
-        }
-      }
-    },
-    {
-      "image": "https://i.ibb.co/d2MSsB4/profile-pic3.png",
-      "title": "Artisan Haven",
-      "quote": "Transforming Visions into Masterpieces! Dive into the sweetable world of artistry.",
-      "links": {
-        "website": "https://www.artisanhaven.com",
-        "socialMedia": {
-          "facebook": "https://www.facebook.com/artisanhaven",
-          "linkedin": "https://www.linkedin.com/company/artisan-haven"
-        }
-      }
-    },
-    {
-      "image": "data:image/png;base64,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",
-      "title": "Infinite Creatives",
-      "quote": "Limitless Ideas, Endless Possibilities! Explore sweetable realms of imagination.",
-      "links": {
-        "website": "https://www.infinitecreatives.net",
-        "socialMedia": {
-          "pinterest": "https://www.pinterest.com/infinitecreatives",
-          "youtube": "https://www.youtube.com/c/infinitecreatives"
-        }
-      }
-    },
-    {
-      "image": "https://i.pngimg.me/thumb/f/720/m2H7K9A0Z5m2G6b1.jpg",
-      "title": "Minds in Motion",
-      "quote": "Where Minds Collide and Magic Happens! Uncover the sweetable secrets of creativity.",
-      "links": {
-        "website": "https://www.mindsinmotion.org",
-        "socialMedia": {
-          "tiktok": "https://www.tiktok.com/@mindsinmotion",
-          "reddit": "https://www.reddit.com/r/mindsinmotion"
-        }
-      }
+  {
+    "image": "https://i.ibb.co/J2nTMpd/profile-pic8.png",
+    "title": "Crafting Dreams",
+    "quote": "Where Ideas Soar and Creativity Ignites! Sweetable dreams await.",
+    "links": {
+      "facebook": "https://www.instagram.com/craftingdreams",
+      "linkedin": "https://twitter.com/craftingdreams",
+      "site": "https://twitter.com/craftingdreams"
     }
-  ]
-  
+  },
+  {
+    "image": "https://i.ibb.co/d2MSsB4/profile-pic3.png",
+    "title": "Artisan Haven",
+    "quote": "Transforming Visions into Masterpieces! Dive into the sweetable world of artistry.",
+    "links": {
+      "facebook": "https://www.facebook.com/artisanhaven",
+      "linkedin": "https://www.linkedin.com/company/artisan-haven"
+    }
+  },
+  {
+    "image": "data:image/png;base64,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",
+    "title": "Infinite Creatives",
+    "quote": "Limitless Ideas, Endless Possibilities! Explore sweetable realms of imagination.",
+    "links": {
+      "facebook": "https://www.pinterest.com/infinitecreatives",
+      "linkedin": "https://www.youtube.com/c/infinitecreatives"
+    }
+  },
+  {
+    "image": "https://i.ibb.co/ZTwM7rQ/profile-pic9.png",
+    "title": "Minds in Motion",
+    "quote": "Where Minds Collide and Magic Happens! Uncover the sweetable secrets of creativity.",
+    "links": {
+      "facebook": "https://www.tiktok.com/@mindsinmotion",
+      "linkedin": "https://www.reddit.com/r/mindsinmotion"
+    }
+  }
+]

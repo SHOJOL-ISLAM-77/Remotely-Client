@@ -1,49 +1,114 @@
-
-
-
 import { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 const Team = () => {
-  const [team, setTeam] = useState([]);
+  const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch("./team.json")
+    fetch("./teams.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
-        setTeam(data);
+        setTeams(data);
       });
   }, []);
 
   return (
-    <div>
-      <h3>Meet The Team</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto">
-      {team.map((member, index) => (
-        <div key={index} className="bg-[#f3f6ff] flex justify-center items-center ">
-          <div className="w-full ml-1 mr-1 flex flex-col justify-center items-center sm:w-96 border-gray-700 text-center">
-            <div className="w-full rounded-2xl p-8 text-white bg-gradient-to-br from-[#5f99f9] to-[#8868dc] pb-44 relative">
-              <h1 className="text-xl mb-4">{member.title}</h1>
-              <p>You can contact us whenever you need help or just curious about something.</p>
-              <button className=" gradient bg-[#D07189] text-white rounded-md p-2 mt-4 hover:shadow-xl transition-all duration-200 ease-in">Portfolio</button> 
+    <section id="o" className="container mx-auto">
+      <SectionTitle
+        subHeading={
+          "Our talented and passionate team is dedicated to delivering exceptional digital experiences. Get to know the creative minds behind our innovative solutions."
+        }
+        heading={"Meet Our Creative Team"}
+      ></SectionTitle>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
+        modules={[Autoplay, Navigation]}
+        className="mySwiper"
+      >
+        {teams.map((team, index) => (
+          <SwiperSlide key={index}>
+            <div className="flex xl:px-40 items-center mx-auto my-16 flex-col lg:flex-row gap-6 p-6 justify-between">
+              <div className="col-span-5">
+                <img
+                  className="lg:h-[250px] h-[150px] mx-auto"
+                  src={team.image}
+                  alt={team.title}
+                />
+              </div>
+              <div className="text-center">
+                <p className="text-[#E57D9D] font-caveat md:text-4xl text-2xl ">
+                  {team.title}
+                </p>
+                <p className="lg:text-xl text-base text-center font-nato pt-2 text-black">
+                  {team.quote}
+                </p>
+                <br />
+                {team.links && (
+                  <div className="flex gap-5 justify-center ">
+                    {team.links.linkedin && (
+                      <>
+                        <a
+                          href={team?.links?.linkedin}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            className="h-12"
+                            src="https://i.ibb.co/5kZm78V/linkedin.png"
+                            alt=""
+                          />
+                        </a>
+                      </>
+                    )}
+                    {team.links.facebook && (
+                      <>
+                        <a
+                          href={team?.links?.facebook}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            className="h-12"
+                            src="https://i.ibb.co/BN858DR/facebook.png"
+                            alt=""
+                          />
+                        </a>
+                      </>
+                    )}
+                    {team.links.site && (
+                      <>
+                        <a
+                          href={team?.links?.site}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            className="h-12"
+                            src="https://i.ibb.co/Nm71LrL/www.png"
+                            alt=""
+                          />
+                        </a>
+                      </>
+                    )}
+                  </div>
+                )}
+              </div>
             </div>
-            <div className="text-center bg-white shadow-lg w-[80%] rounded-xl -mt-32 z-10 p-9 flex items-center flex-col">
-              <h2 className="font-semibold text-xl">{member.name}</h2>
-              <img src="https://pbs.twimg.com/profile_images/1602443868527595520/cOjnC2Zh_400x400.jpg" className="w-[40%] rounded-full mt-7" alt="Profile" />
-              <p className="mt-3 font-semibold text-lg">{member.name}</p>
-              <span className="text-slate-500 rounded-xl border-slate-100 text-sm mt-2 pl-3 pr-3 border-[1px]">
-                <span className="bg-green-500 w-2 h-2 rounded-full mt-0.5 inline-block"></span> Active
-              </span>
-              <div className="flex items-center justify-between gap-8 mx-auto ">
-              <button className="w-full gradient bg-[#D07189] text-white rounded-md p-2 mt-4 hover:shadow-xl transition-all duration-200 ease-in">Hire Now</button> 
-          
-                </div> 
-            </div>
-          </div>
-        </div>
-      ))}
-      </div>
-    </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </section>
   );
 };
 
