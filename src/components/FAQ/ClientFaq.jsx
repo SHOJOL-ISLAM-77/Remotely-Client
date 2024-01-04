@@ -1,19 +1,16 @@
-
-
-import { useState, useEffect } from 'react';
-import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import { useState, useEffect } from "react";
 
 const ClientFaq = () => {
-const [faqData, setFaqData] = useState([]);
+  const [faqData, setFaqData] = useState([]);
 
-useEffect(() => {
+  useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('./clientfaq.json');
+        const response = await fetch("./clientfaq.json");
         const data = await response.json();
         setFaqData(data);
       } catch (error) {
-        console.error('Error fetching FAQ data:', error);
+        console.error("Error fetching FAQ data:", error);
       }
     };
     fetchData();
@@ -27,10 +24,7 @@ useEffect(() => {
 
   return (
     <div className="mx-auto">
-      <SectionTitle
-       heading="Do you need a Freelancer?"
-     >
-     </SectionTitle>
+    
       <div className="mx-auto">
         {faqData.map((item) => (
           <div key={item.id} className="mb-4">
@@ -38,10 +32,10 @@ useEffect(() => {
               className="flex justify-between items-center bg-gray-200 py-2 px-4 cursor-pointer"
               onClick={() => handleToggle(item.id)}
             >
-              <p className="font-semibold">{item.question}</p>
+              <p className="font-semibold text-black">{item.question}</p>
               <span
                 className={`${
-                  openItemId === item.id ? 'transform rotate-180' : ''
+                  openItemId === item.id ? "transform rotate-180" : ""
                 } transition-transform duration-300 text-xl`}
               >
                 &#9660;

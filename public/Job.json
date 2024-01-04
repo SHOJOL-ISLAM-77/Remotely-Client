@@ -1,0 +1,74 @@
+[
+    {
+        "skill_id": "1",
+        "name": "Web Development"
+    },
+    {
+        "skill_id": "2",
+        "name": "App Development"
+    },
+    {
+        "skill_id": "3",
+        "name": "Graphics Design"
+    },
+    {
+        "skill_id": "4",
+        "name": "Video and Animation"
+    },
+    {
+        "skill_id": "5",
+        "name": "Digital Marketing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Writing"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Development"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Services"
+    },
+    {
+        "skill_id": "9",
+        "name": "Business & Branding"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry"
+    },
+    {
+        "skill_id": "11",
+        "name": "Search Engine Optimization (SEO)"
+    },
+    {
+        "skill_id": "12",
+        "name": "Ethical Hacking"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Development"
+    },
+    {
+        "skill_id": "16",
+        "name": "Consulting"
+    },
+    {
+        "skill_id": "17",
+        "name": "Healthcare Consulting"
+    },
+    {
+        "skill_id": "18",
+        "name": "Idea Management"
+    }
+]

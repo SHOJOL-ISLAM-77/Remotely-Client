@@ -1,7 +1,4 @@
-
-
 import { useState, useEffect } from 'react';
-import SectionTitle from '../SectionTitle/SectionTitle';
 
 const MemberFaq = () => {
 const [faqData, setFaqData] = useState([]);
@@ -28,10 +25,7 @@ useEffect(() => {
 
   return (
     <div className="mx-auto">
-     <SectionTitle
-       heading="Are you a Freelancer?"
-     >
-     </SectionTitle>
+ 
       <div className="mx-auto"> 
         {faqData.map((item) => (
           <div key={item.id} className="mb-4"> 
@@ -39,7 +33,7 @@ useEffect(() => {
               className="flex justify-between items-center bg-gray-200 py-2 px-4 cursor-pointer"
               onClick={() => handleToggle(item.id)}
             >
-              <p className="font-semibold">{item.question}</p>
+              <p className="font-semibold text-black">{item.question}</p>
               <span
                 className={`${
                   openItemId === item.id ? 'transform rotate-180' : ''

@@ -8,7 +8,7 @@ import { ImageUpload } from "../../Utils/UploadImage";
 import { getToken, saveUser } from "../../API/User/User";
 
 const Register = () => {
-  const { createUser, updateUserProfile,  } = useAuth();
+  const { createUser, updateUserProfile } = useAuth();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [passwordError, setPasswordError] = useState("");
@@ -72,7 +72,7 @@ const Register = () => {
   };
 
   return (
-    <div className=" flex items-center justify-center ">
+    <div className=" flex items-center justify-center">
       <div className=" bg-black opacity-60 inset-0 z-0"></div>
       <div className="max-w-md w-full space-y-8 p-10 bg-white rounded-xl z-10">
         <div className="text-center">
@@ -81,57 +81,58 @@ const Register = () => {
           </h2>
         </div>
         <form onSubmit={handleRegister} className="mt-8 space-y-6">
-          <div className="relative">
-            <div className="absolute right-0 mt-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-green-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                ></path>
-              </svg>
+          <div className="grid grid-cols-2 gap-5">
+            <div className="relative">
+              <label className="text-sm font-bold text-gray-700 tracking-wide">
+                Name
+              </label>
+              <input
+                className="w-full border-b py-2 border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
             </div>
-            <label className="text-sm font-bold text-gray-700 tracking-wide">
-              Name
-            </label>
-            <input
-              className="w-full py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
-              type="text"
-              name="name"
-              placeholder="Enter your name"
-              required
-            />
-          </div>
-          <div className="relative">
-            <label className="text-sm font-bold text-gray-700 tracking-wide">
-              Email
-            </label>
-            <input
-              className="w-full py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              required
-            />
-          </div>
-          <div className="mt-8 content-center">
-            <label className="text-sm font-bold text-gray-700 tracking-wide">
-              Password
-            </label>
-            <input
-              className="w-full content-center py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
-              type="password"
-              name="password"
-              placeholder="Enter your password"
-              required
-            />
+            <div className="relative">
+              <label className="text-sm font-bold text-gray-700 tracking-wide">
+                Email
+              </label>
+              <input
+                className="w-full border-b py-2 border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div className="content-center">
+              <label className="text-sm font-bold text-gray-700 tracking-wide">
+                Password
+              </label>
+              <input
+                className="w-full py-2 content-center border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
+                type="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <div className="relative">
+              <label className="text-sm font-bold text-gray-700 tracking-wide">
+                User Type
+              </label>
+              <select
+                className="w-full border-b py-2 border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
+                name="role"
+              >
+                <option value="" disabled defaultValue>
+                  Select one
+                </option>
+                <option value="buyer">Buyer</option>
+                <option value="freelancer">Freelancer</option>
+              </select>
+            </div>
           </div>
           <div className="relative">
             <label className="text-sm font-bold text-gray-700 tracking-wide">
@@ -144,21 +145,6 @@ const Register = () => {
               accept="image/*"
               required
             />
-          </div>
-          <div className="relative">
-            <label className="text-sm font-bold text-gray-700 tracking-wide">
-              User Type
-            </label>
-            <select
-              className="w-full py-2 border-b border-gray-300 bg-white focus:outline-none focus:border-indigo-500"
-              name="role"
-            >
-              <option value="" disabled defaultValue>
-                Select one
-              </option>
-              <option value="buyer">Buyer</option>
-              <option value="freelancer">Freelancer</option>
-            </select>
           </div>
           {passwordError && (
             <p className="text-red-500 mt-2">{passwordError}</p>

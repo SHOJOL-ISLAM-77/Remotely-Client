@@ -1,5 +1,7 @@
+import About from "../../components/About/About";
 import Banner from "../../components/Banner/Banner";
 import Contact from "../../components/Contact/Contact";
+import Faq from "../../components/FAQ/Faq";
 import Team from "../../components/Team/Team";
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
 
@@ -19,10 +21,18 @@ const Home = () => {
       <br />
       <br />
       <Contact/>
+      <br />
+      <br />
+      <br />
+      <About/>
+      <br />
+      <br />
+      <br />
+      <Faq></Faq>
       {/* <Skills></Skills> */}
       {/* <Pricing></Pricing>  
            <Team></Team>  
-           <Faq></Faq>
+          
            <Testimonial></Testimonial> */}
       {/* <Contact></Contact>    */}
     </div>

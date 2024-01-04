@@ -10,7 +10,6 @@ export default {
       colors: {
         "primary": "#3BC391", 
         "secondary": "#535DA1",
-        "third": "#3BC399"
       },
       fontFamily: {
         'noto': ['Noto Serif', 'serif'],

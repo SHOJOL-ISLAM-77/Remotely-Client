@@ -1,0 +1,3498 @@
+[
+    {
+        "skill_id": "1",
+        "name": "React"
+    },
+    {
+        "skill_id": "1",
+        "name": "JavaScript"
+    },
+    {
+        "skill_id": "1",
+        "name": "Angular"
+    },
+    {
+        "skill_id": "1",
+        "name": "Vue.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "HTML"
+    },
+    {
+        "skill_id": "1",
+        "name": "CSS"
+    },
+    {
+        "skill_id": "1",
+        "name": "Sass"
+    },
+    {
+        "skill_id": "1",
+        "name": "Bootstrap"
+    },
+    {
+        "skill_id": "1",
+        "name": "Tailwind CSS"
+    },
+    {
+        "skill_id": "1",
+        "name": "Node.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "Express.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "MongoDB"
+    },
+    {
+        "skill_id": "1",
+        "name": "SQL"
+    },
+    {
+        "skill_id": "1",
+        "name": "RESTful APIs"
+    },
+    {
+        "skill_id": "1",
+        "name": "GraphQL"
+    },
+    {
+        "skill_id": "1",
+        "name": "Git"
+    },
+    {
+        "skill_id": "1",
+        "name": "Webpack"
+    },
+    {
+        "skill_id": "1",
+        "name": "JIRA"
+    },
+    {
+        "skill_id": "1",
+        "name": "Redux"
+    },
+    {
+        "skill_id": "1",
+        "name": "TypeScript"
+    },
+    {
+        "skill_id": "1",
+        "name": "Jest"
+    },
+    {
+        "skill_id": "1",
+        "name": "Docker"
+    },
+    {
+        "skill_id": "1",
+        "name": "Firebase"
+    },
+    {
+        "skill_id": "1",
+        "name": "AWS"
+    },
+    {
+        "skill_id": "1",
+        "name": "Responsive Design"
+    },
+    {
+        "skill_id": "1",
+        "name": "Cross-Browser Compatibility"
+    },
+    {
+        "skill_id": "1",
+        "name": "Web Accessibility (WCAG)"
+    },
+    {
+        "skill_id": "1",
+        "name": "Performance Optimization"
+    },
+    {
+        "skill_id": "1",
+        "name": "Web Security"
+    },
+    {
+        "skill_id": "1",
+        "name": "GraphQL"
+    },
+    {
+        "skill_id": "1",
+        "name": "CI/CD"
+    },
+    {
+        "skill_id": "1",
+        "name": "Testing (Unit, Integration, E2E)"
+    },
+    {
+        "skill_id": "1",
+        "name": "Agile/Scrum"
+    },
+    {
+        "skill_id": "1",
+        "name": "Responsive Web Design"
+    },
+    {
+        "skill_id": "1",
+        "name": "Mobile-First Development"
+    },
+    {
+        "skill_id": "1",
+        "name": "Performance Optimization"
+    },
+    {
+        "skill_id": "1",
+        "name": "WebSockets"
+    },
+    {
+        "skill_id": "1",
+        "name": "WebAssembly"
+    },
+    {
+        "skill_id": "1",
+        "name": "Next.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "Nuxt.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "Gatsby"
+    },
+    {
+        "skill_id": "1",
+        "name": "Cypress"
+    },
+    {
+        "skill_id": "1",
+        "name": "Storybook"
+    },
+    {
+        "skill_id": "1",
+        "name": "Material-UI"
+    },
+    {
+        "skill_id": "1",
+        "name": "Ant Design"
+    },
+    {
+        "skill_id": "1",
+        "name": "Redux Toolkit"
+    },
+    {
+        "skill_id": "1",
+        "name": "Axios"
+    },
+    {
+        "skill_id": "1",
+        "name": "GraphQL Apollo Client"
+    },
+    {
+        "skill_id": "1",
+        "name": "Three.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "D3.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "WordPress"
+    },
+    {
+        "skill_id": "1",
+        "name": "RxJS"
+    },
+    {
+        "skill_id": "1",
+        "name": "PWA (Progressive Web Apps)"
+    },
+    {
+        "skill_id": "1",
+        "name": "Lodash"
+    },
+    {
+        "skill_id": "1",
+        "name": "Python"
+    },
+    {
+        "skill_id": "1",
+        "name": "Chart.js"
+    },
+    {
+        "skill_id": "1",
+        "name": "Styled Components"
+    },
+    {
+        "skill_id": "1",
+        "name": "CORS"
+    },
+    {
+        "skill_id": "1",
+        "name": "OAuth 2.0"
+    },
+    {
+        "skill_id": "2",
+        "name": "React Native"
+    },
+    {
+        "skill_id": "2",
+        "name": "Swift"
+    },
+    {
+        "skill_id": "2",
+        "name": "Kotlin"
+    },
+    {
+        "skill_id": "2",
+        "name": "Flutter"
+    },
+    {
+        "skill_id": "2",
+        "name": "Xamarin"
+    },
+    {
+        "skill_id": "2",
+        "name": "Java (Android)"
+    },
+    {
+        "skill_id": "2",
+        "name": "Objective-C"
+    },
+    {
+        "skill_id": "2",
+        "name": "Dart"
+    },
+    {
+        "skill_id": "2",
+        "name": "Ionic"
+    },
+    {
+        "skill_id": "2",
+        "name": "Cordova"
+    },
+    {
+        "skill_id": "2",
+        "name": "PhoneGap"
+    },
+    {
+        "skill_id": "2",
+        "name": "Firebase (Mobile)"
+    },
+    {
+        "skill_id": "2",
+        "name": "Realm"
+    },
+    {
+        "skill_id": "2",
+        "name": "SQLite"
+    },
+    {
+        "skill_id": "2",
+        "name": "Realm"
+    },
+    {
+        "skill_id": "2",
+        "name": "GraphQL (Mobile)"
+    },
+    {
+        "skill_id": "2",
+        "name": "Push Notifications"
+    },
+    {
+        "skill_id": "2",
+        "name": "ARKit"
+    },
+    {
+        "skill_id": "2",
+        "name": "ARCore"
+    },
+    {
+        "skill_id": "2",
+        "name": "Mobile Design Patterns"
+    },
+    {
+        "skill_id": "2",
+        "name": "App Store Submission Process"
+    },
+    {
+        "skill_id": "2",
+        "name": "Google Play Store Submission Process"
+    },
+    {
+        "skill_id": "2",
+        "name": "Material Design (Android)"
+    },
+    {
+        "skill_id": "2",
+        "name": "App Store Connect"
+    },
+    {
+        "skill_id": "2",
+        "name": "Android Studio"
+    },
+    {
+        "skill_id": "2",
+        "name": "Xcode"
+    },
+    {
+        "skill_id": "2",
+        "name": "TestFlight"
+    },
+    {
+        "skill_id": "2",
+        "name": "Crashlytics"
+    },
+    {
+        "skill_id": "2",
+        "name": "App Analytics"
+    },
+    {
+        "skill_id": "2",
+        "name": "Mobile App Security"
+    },
+    {
+        "skill_id": "2",
+        "name": "Cross-Platform Development"
+    },
+    {
+        "skill_id": "2",
+        "name": "Responsive Design (Mobile)"
+    },
+    {
+        "skill_id": "2",
+        "name": "User Authentication (Mobile)"
+    },
+    {
+        "skill_id": "2",
+        "name": "Mobile App Testing"
+    },
+    {
+        "skill_id": "2",
+        "name": "Redux (Mobile)"
+    },
+    {
+        "skill_id": "2",
+        "name": "RxSwift"
+    },
+    {
+        "skill_id": "2",
+        "name": "MobX"
+    },
+    {
+        "skill_id": "2",
+        "name": "Core Data"
+    },
+    {
+        "skill_id": "2",
+        "name": "Appium"
+    },
+    {
+        "skill_id": "2",
+        "name": "Detox"
+    },
+    {
+        "skill_id": "2",
+        "name": "Realm"
+    },
+    {
+        "skill_id": "2",
+        "name": "Mobile Continuous Integration"
+    },
+    {
+        "skill_id": "2",
+        "name": "Mobile Continuous Deployment"
+    },
+    {
+        "skill_id": "2",
+        "name": "Mobile App Monetization"
+    },
+    {
+        "skill_id": "2",
+        "name": "In-App Purchases"
+    },
+    {
+        "skill_id": "2",
+        "name": "AdMob"
+    },
+    {
+        "skill_id": "2",
+        "name": "React Navigation"
+    },
+    {
+        "skill_id": "2",
+        "name": "Flutter Navigation"
+    },
+    {
+        "skill_id": "2",
+        "name": "SwiftUI"
+    },
+    {
+        "skill_id": "2",
+        "name": "Mobile UX Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Adobe Photoshop"
+    },
+    {
+        "skill_id": "3",
+        "name": "Adobe Illustrator"
+    },
+    {
+        "skill_id": "3",
+        "name": "Adobe InDesign"
+    },
+    {
+        "skill_id": "3",
+        "name": "Adobe XD"
+    },
+    {
+        "skill_id": "3",
+        "name": "Sketch"
+    },
+    {
+        "skill_id": "3",
+        "name": "Figma"
+    },
+    {
+        "skill_id": "3",
+        "name": "CorelDRAW"
+    },
+    {
+        "skill_id": "3",
+        "name": "Canva"
+    },
+    {
+        "skill_id": "3",
+        "name": "Affinity Designer"
+    },
+    {
+        "skill_id": "3",
+        "name": "Affinity Photo"
+    },
+    {
+        "skill_id": "3",
+        "name": "GIMP"
+    },
+    {
+        "skill_id": "3",
+        "name": "Typography"
+    },
+    {
+        "skill_id": "3",
+        "name": "Color Theory"
+    },
+    {
+        "skill_id": "3",
+        "name": "Logo Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Brand Identity"
+    },
+    {
+        "skill_id": "3",
+        "name": "Print Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Web Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "User Interface (UI) Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "User Experience (UX) Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Icon Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Illustration"
+    },
+    {
+        "skill_id": "3",
+        "name": "Vector Art"
+    },
+    {
+        "skill_id": "3",
+        "name": "Digital Painting"
+    },
+    {
+        "skill_id": "3",
+        "name": "Motion Graphics"
+    },
+    {
+        "skill_id": "3",
+        "name": "3D Modeling"
+    },
+    {
+        "skill_id": "3",
+        "name": "Animation"
+    },
+    {
+        "skill_id": "3",
+        "name": "Visual Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Layout Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Publication Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Responsive Design (Graphic)"
+    },
+    {
+        "skill_id": "3",
+        "name": "Prototyping"
+    },
+    {
+        "skill_id": "3",
+        "name": "Wireframing"
+    },
+    {
+        "skill_id": "3",
+        "name": "Packaging Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Environmental Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Photo Editing"
+    },
+    {
+        "skill_id": "3",
+        "name": "Digital Photography"
+    },
+    {
+        "skill_id": "3",
+        "name": "Print Production"
+    },
+    {
+        "skill_id": "3",
+        "name": "Mockups"
+    },
+    {
+        "skill_id": "3",
+        "name": "Visual Branding"
+    },
+    {
+        "skill_id": "3",
+        "name": "Social Media Graphics"
+    },
+    {
+        "skill_id": "3",
+        "name": "Infographic Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Poster Design"
+    },
+    {
+        "skill_id": "3",
+        "name": "Storyboarding"
+    },
+    {
+        "skill_id": "3",
+        "name": "Creative Thinking"
+    },
+    {
+        "skill_id": "3",
+        "name": "Digital Marketing Graphics"
+    },
+    {
+        "skill_id": "4",
+        "name": "Adobe Premiere Pro"
+    },
+    {
+        "skill_id": "4",
+        "name": "Final Cut Pro"
+    },
+    {
+        "skill_id": "4",
+        "name": "DaVinci Resolve"
+    },
+    {
+        "skill_id": "4",
+        "name": "After Effects"
+    },
+    {
+        "skill_id": "4",
+        "name": "Adobe Animate"
+    },
+    {
+        "skill_id": "4",
+        "name": "Cinema 4D"
+    },
+    {
+        "skill_id": "4",
+        "name": "Blender"
+    },
+    {
+        "skill_id": "4",
+        "name": "Maya"
+    },
+    {
+        "skill_id": "4",
+        "name": "Motion Graphics"
+    },
+    {
+        "skill_id": "4",
+        "name": "2D Animation"
+    },
+    {
+        "skill_id": "4",
+        "name": "3D Animation"
+    },
+    {
+        "skill_id": "4",
+        "name": "Character Animation"
+    },
+    {
+        "skill_id": "4",
+        "name": "Stop Motion"
+    },
+    {
+        "skill_id": "4",
+        "name": "Video Editing"
+    },
+    {
+        "skill_id": "4",
+        "name": "Storyboarding"
+    },
+    {
+        "skill_id": "4",
+        "name": "Scriptwriting"
+    },
+    {
+        "skill_id": "4",
+        "name": "Voiceover"
+    },
+    {
+        "skill_id": "4",
+        "name": "Sound Design"
+    },
+    {
+        "skill_id": "4",
+        "name": "Color Correction"
+    },
+    {
+        "skill_id": "4",
+        "name": "Green Screen"
+    },
+    {
+        "skill_id": "4",
+        "name": "Audio Editing"
+    },
+    {
+        "skill_id": "4",
+        "name": "Video Production"
+    },
+    {
+        "skill_id": "4",
+        "name": "VFX (Visual Effects)"
+    },
+    {
+        "skill_id": "4",
+        "name": "Compositing"
+    },
+    {
+        "skill_id": "4",
+        "name": "Keyframing"
+    },
+    {
+        "skill_id": "4",
+        "name": "Video Transitions"
+    },
+    {
+        "skill_id": "4",
+        "name": "Explainer Videos"
+    },
+    {
+        "skill_id": "4",
+        "name": "Whiteboard Animation"
+    },
+    {
+        "skill_id": "4",
+        "name": "Animated Infographics"
+    },
+    {
+        "skill_id": "4",
+        "name": "Interactive Video"
+    },
+    {
+        "skill_id": "4",
+        "name": "360-Degree Videos"
+    },
+    {
+        "skill_id": "4",
+        "name": "VR (Virtual Reality)"
+    },
+    {
+        "skill_id": "4",
+        "name": "AR (Augmented Reality)"
+    },
+    {
+        "skill_id": "4",
+        "name": "Live Streaming"
+    },
+    {
+        "skill_id": "4",
+        "name": "YouTube Editing"
+    },
+    {
+        "skill_id": "4",
+        "name": "Twitch Streaming"
+    },
+    {
+        "skill_id": "4",
+        "name": "Video Marketing"
+    },
+    {
+        "skill_id": "4",
+        "name": "Storyboard Pro"
+    },
+    {
+        "skill_id": "4",
+        "name": "Video Compression"
+    },
+    {
+        "skill_id": "4",
+        "name": "Audio Synchronization"
+    },
+    {
+        "skill_id": "4",
+        "name": "Typography in Video"
+    },
+    {
+        "skill_id": "4",
+        "name": "Subtitling"
+    },
+    {
+        "skill_id": "4",
+        "name": "Animation Rigging"
+    },
+    {
+        "skill_id": "4",
+        "name": "Frame-by-Frame Animation"
+    },
+    {
+        "skill_id": "4",
+        "name": "Claymation"
+    },
+    {
+        "skill_id": "5",
+        "name": "Social Media Marketing (SMM)"
+    },
+    {
+        "skill_id": "5",
+        "name": "Content Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Email Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Influencer Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Affiliate Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Digital Advertising"
+    },
+    {
+        "skill_id": "5",
+        "name": "Google Analytics"
+    },
+    {
+        "skill_id": "5",
+        "name": "Google Ads"
+    },
+    {
+        "skill_id": "5",
+        "name": "Facebook Ads"
+    },
+    {
+        "skill_id": "5",
+        "name": "Instagram Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "LinkedIn Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Twitter Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Pinterest Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "YouTube Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Snapchat Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "TikTok Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Social Media Analytics"
+    },
+    {
+        "skill_id": "5",
+        "name": "Conversion Rate Optimization (CRO)"
+    },
+    {
+        "skill_id": "5",
+        "name": "A/B Testing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Landing Page Optimization"
+    },
+    {
+        "skill_id": "5",
+        "name": "Marketing Automation"
+    },
+    {
+        "skill_id": "5",
+        "name": "Customer Relationship Management (CRM)"
+    },
+    {
+        "skill_id": "5",
+        "name": "Lead Generation"
+    },
+    {
+        "skill_id": "5",
+        "name": "Google Search Console"
+    },
+    {
+        "skill_id": "5",
+        "name": "Social Media Content Creation"
+    },
+    {
+        "skill_id": "5",
+        "name": "Copywriting"
+    },
+    {
+        "skill_id": "5",
+        "name": "Blogging"
+    },
+    {
+        "skill_id": "5",
+        "name": "Social Media Management Tools"
+    },
+    {
+        "skill_id": "5",
+        "name": "Digital Marketing Strategy"
+    },
+    {
+        "skill_id": "5",
+        "name": "Competitor Analysis"
+    },
+    {
+        "skill_id": "5",
+        "name": "Brand Management"
+    },
+    {
+        "skill_id": "5",
+        "name": "Online Reputation Management (ORM)"
+    },
+    {
+        "skill_id": "5",
+        "name": "E-commerce Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Local SEO"
+    },
+    {
+        "skill_id": "5",
+        "name": "Mobile Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Video Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Podcast Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Chatbot Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Data Analysis in Digital Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Social Media Influencer Outreach"
+    },
+    {
+        "skill_id": "5",
+        "name": "GDPR Compliance in Marketing"
+    },
+    {
+        "skill_id": "5",
+        "name": "Customer Segmentation"
+    },
+    {
+        "skill_id": "5",
+        "name": "Retargeting Strategies"
+    },
+    {
+        "skill_id": "6",
+        "name": "Copywriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "Blog Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Article Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "SEO Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Creative Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Technical Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Editing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Social Media Content"
+    },
+    {
+        "skill_id": "6",
+        "name": "Press Release Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Product Descriptions"
+    },
+    {
+        "skill_id": "6",
+        "name": "White Paper Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Case Study Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Email Copywriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "Newsletter Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Ghostwriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "Scriptwriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "Grant Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Resume Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Editing and Proofreading"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Strategy"
+    },
+    {
+        "skill_id": "6",
+        "name": "Brand Voice Development"
+    },
+    {
+        "skill_id": "6",
+        "name": "Influencer Outreach (Content)"
+    },
+    {
+        "skill_id": "6",
+        "name": "Research Skills"
+    },
+    {
+        "skill_id": "6",
+        "name": "Interviewing Skills"
+    },
+    {
+        "skill_id": "6",
+        "name": "Grammar and Style Mastery"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Calendar Management"
+    },
+    {
+        "skill_id": "6",
+        "name": "Target Audience Analysis"
+    },
+    {
+        "skill_id": "6",
+        "name": "Ad Copywriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "Landing Page Copywriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "Infographic Content"
+    },
+    {
+        "skill_id": "6",
+        "name": "Visual Content Creation"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Promotion Strategies"
+    },
+    {
+        "skill_id": "6",
+        "name": "User Engagement Optimization"
+    },
+    {
+        "skill_id": "6",
+        "name": "Brand Storytelling"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Metrics Analysis"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Localization"
+    },
+    {
+        "skill_id": "6",
+        "name": "Podcast Scriptwriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "E-book Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Monetization"
+    },
+    {
+        "skill_id": "6",
+        "name": "Social Media Copywriting"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content Syndication"
+    },
+    {
+        "skill_id": "6",
+        "name": "Content SEO Optimization"
+    },
+    {
+        "skill_id": "6",
+        "name": "Thought Leadership Content"
+    },
+    {
+        "skill_id": "6",
+        "name": "Evergreen Content Creation"
+    },
+    {
+        "skill_id": "6",
+        "name": "Podcast Show Notes Writing"
+    },
+    {
+        "skill_id": "6",
+        "name": "Writing for Different Platforms"
+    },
+    {
+        "skill_id": "6",
+        "name": "Video Scriptwriting"
+    },
+    {
+        "skill_id": "7",
+        "name": "Unity"
+    },
+    {
+        "skill_id": "7",
+        "name": "Unreal Engine"
+    },
+    {
+        "skill_id": "7",
+        "name": "C# Programming"
+    },
+    {
+        "skill_id": "7",
+        "name": "C++ Programming"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Design"
+    },
+    {
+        "skill_id": "7",
+        "name": "3D Modeling"
+    },
+    {
+        "skill_id": "7",
+        "name": "2D Game Art"
+    },
+    {
+        "skill_id": "7",
+        "name": "Animation (Game)"
+    },
+    {
+        "skill_id": "7",
+        "name": "Physics in Games"
+    },
+    {
+        "skill_id": "7",
+        "name": "AI Programming (Game)"
+    },
+    {
+        "skill_id": "7",
+        "name": "Multiplayer Game Development"
+    },
+    {
+        "skill_id": "7",
+        "name": "Virtual Reality (VR)"
+    },
+    {
+        "skill_id": "7",
+        "name": "Augmented Reality (AR)"
+    },
+    {
+        "skill_id": "7",
+        "name": "Mobile Game Development"
+    },
+    {
+        "skill_id": "7",
+        "name": "Console Game Development"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Testing"
+    },
+    {
+        "skill_id": "7",
+        "name": "Shader Programming"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Audio Design"
+    },
+    {
+        "skill_id": "7",
+        "name": "User Interface (UI) Design (Game)"
+    },
+    {
+        "skill_id": "7",
+        "name": "User Experience (UX) Design (Game)"
+    },
+    {
+        "skill_id": "7",
+        "name": "Level Design"
+    },
+    {
+        "skill_id": "7",
+        "name": "Scripting Languages for Games"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Monetization Strategies"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Analytics"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Marketing"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Publishing"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Production"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Localization"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Engine Architecture"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Optimization"
+    },
+    {
+        "skill_id": "7",
+        "name": "Networking in Game Development"
+    },
+    {
+        "skill_id": "7",
+        "name": "Procedural Generation"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game AI Behavior Trees"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game DevOps"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Storytelling"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Cinematics"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Engine Scripting"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Project Management"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Prototyping"
+    },
+    {
+        "skill_id": "7",
+        "name": "Mobile Game Monetization"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Soundtracks"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Voice Acting"
+    },
+    {
+        "skill_id": "7",
+        "name": "Game Accessibility"
+    },
+    {
+        "skill_id": "7",
+        "name": "AR Game Development"
+    },
+    {
+        "skill_id": "7",
+        "name": "VR Game Development"
+    },
+    {
+        "skill_id": "7",
+        "name": "Serious Games Development"
+    },
+    {
+        "skill_id": "8",
+        "name": "Machine Learning"
+    },
+    {
+        "skill_id": "8",
+        "name": "Deep Learning"
+    },
+    {
+        "skill_id": "8",
+        "name": "Natural Language Processing (NLP)"
+    },
+    {
+        "skill_id": "8",
+        "name": "Computer Vision"
+    },
+    {
+        "skill_id": "8",
+        "name": "Speech Recognition"
+    },
+    {
+        "skill_id": "8",
+        "name": "Recommendation Systems"
+    },
+    {
+        "skill_id": "8",
+        "name": "Predictive Analytics"
+    },
+    {
+        "skill_id": "8",
+        "name": "Data Science"
+    },
+    {
+        "skill_id": "8",
+        "name": "Data Mining"
+    },
+    {
+        "skill_id": "8",
+        "name": "Neural Networks"
+    },
+    {
+        "skill_id": "8",
+        "name": "Reinforcement Learning"
+    },
+    {
+        "skill_id": "8",
+        "name": "Generative Adversarial Networks (GANs)"
+    },
+    {
+        "skill_id": "8",
+        "name": "Transfer Learning"
+    },
+    {
+        "skill_id": "8",
+        "name": "Chatbot Development"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Model Deployment"
+    },
+    {
+        "skill_id": "8",
+        "name": "Cloud AI Services (e.g., AWS AI, Azure AI)"
+    },
+    {
+        "skill_id": "8",
+        "name": "AutoML (Automated Machine Learning)"
+    },
+    {
+        "skill_id": "8",
+        "name": "Explainable AI"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Ethics and Responsible AI"
+    },
+    {
+        "skill_id": "8",
+        "name": "Chatbot Platforms (e.g., Dialogflow, Microsoft Bot Framework)"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Model Interpretability"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Consulting"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Strategy Development"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Project Management"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Research"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Healthcare"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Finance"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Marketing"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Retail"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Education"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Agriculture"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Manufacturing"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Transportation"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Energy"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Entertainment"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Cybersecurity"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Legal Services"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Human Resources"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Customer Support"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Supply Chain Management"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Integration with Enterprise Systems"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI Model Fine-tuning"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Social Media Analysis"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI in Predictive Maintenance"
+    },
+    {
+        "skill_id": "8",
+        "name": "AI-driven Personalization"
+    },
+    {
+        "skill_id": "9",
+        "name": "Business Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Market Research"
+    },
+    {
+        "skill_id": "9",
+        "name": "SWOT Analysis"
+    },
+    {
+        "skill_id": "9",
+        "name": "Competitive Analysis"
+    },
+    {
+        "skill_id": "9",
+        "name": "Business Planning"
+    },
+    {
+        "skill_id": "9",
+        "name": "Financial Modeling"
+    },
+    {
+        "skill_id": "9",
+        "name": "Budgeting and Forecasting"
+    },
+    {
+        "skill_id": "9",
+        "name": "Business Development"
+    },
+    {
+        "skill_id": "9",
+        "name": "Startup Consulting"
+    },
+    {
+        "skill_id": "9",
+        "name": "Brand Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Brand Identity Design"
+    },
+    {
+        "skill_id": "9",
+        "name": "Brand Positioning"
+    },
+    {
+        "skill_id": "9",
+        "name": "Logo Design"
+    },
+    {
+        "skill_id": "9",
+        "name": "Naming and Taglines"
+    },
+    {
+        "skill_id": "9",
+        "name": "Brand Messaging"
+    },
+    {
+        "skill_id": "9",
+        "name": "Brand Guidelines"
+    },
+    {
+        "skill_id": "9",
+        "name": "Corporate Identity"
+    },
+    {
+        "skill_id": "9",
+        "name": "Marketing Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Content Marketing Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Social Media Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Influencer Marketing Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Digital Marketing Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "E-commerce Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Customer Relationship Management (CRM)"
+    },
+    {
+        "skill_id": "9",
+        "name": "Customer Experience Management"
+    },
+    {
+        "skill_id": "9",
+        "name": "Customer Journey Mapping"
+    },
+    {
+        "skill_id": "9",
+        "name": "Sales Strategy"
+    },
+    {
+        "skill_id": "9",
+        "name": "Lead Generation"
+    },
+    {
+        "skill_id": "9",
+        "name": "Sales Funnel Optimization"
+    },
+    {
+        "skill_id": "9",
+        "name": "Negotiation Skills"
+    },
+    {
+        "skill_id": "9",
+        "name": "Presentation Skills"
+    },
+    {
+        "skill_id": "9",
+        "name": "Public Relations (PR)"
+    },
+    {
+        "skill_id": "9",
+        "name": "Event Planning and Management"
+    },
+    {
+        "skill_id": "9",
+        "name": "Corporate Communication"
+    },
+    {
+        "skill_id": "9",
+        "name": "Crisis Management"
+    },
+    {
+        "skill_id": "9",
+        "name": "Employee Branding"
+    },
+    {
+        "skill_id": "9",
+        "name": "Business Networking"
+    },
+    {
+        "skill_id": "9",
+        "name": "Strategic Partnerships"
+    },
+    {
+        "skill_id": "9",
+        "name": "Negotiation Skills"
+    },
+    {
+        "skill_id": "9",
+        "name": "Business Ethics"
+    },
+    {
+        "skill_id": "9",
+        "name": "Leadership Skills"
+    },
+    {
+        "skill_id": "9",
+        "name": "Time Management"
+    },
+    {
+        "skill_id": "9",
+        "name": "Decision-Making Skills"
+    },
+    {
+        "skill_id": "9",
+        "name": "Project Management"
+    },
+    {
+        "skill_id": "9",
+        "name": "Change Management"
+    },
+    {
+        "skill_id": "9",
+        "name": "Lean Startup Methodology"
+    },
+    {
+        "skill_id": "9",
+        "name": "Agile Methodology in Business"
+    },
+    {
+        "skill_id": "9",
+        "name": "Customer Feedback Analysis"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Cleaning"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Validation"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Analysis"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Mining"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Conversion"
+    },
+    {
+        "skill_id": "10",
+        "name": "Database Management"
+    },
+    {
+        "skill_id": "10",
+        "name": "Excel Spreadsheet"
+    },
+    {
+        "skill_id": "10",
+        "name": "Google Sheets"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Organization"
+    },
+    {
+        "skill_id": "10",
+        "name": "Typing Speed"
+    },
+    {
+        "skill_id": "10",
+        "name": "Document Formatting"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Encoding"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Cleaning Tools (e.g., OpenRefine)"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Quality Assurance"
+    },
+    {
+        "skill_id": "10",
+        "name": "Numeric Data Entry"
+    },
+    {
+        "skill_id": "10",
+        "name": "Alpha-Numeric Data Entry"
+    },
+    {
+        "skill_id": "10",
+        "name": "Image to Text Data Entry"
+    },
+    {
+        "skill_id": "10",
+        "name": "Form Filling"
+    },
+    {
+        "skill_id": "10",
+        "name": "Copy-Paste Data Entry"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Software (e.g., MS Access)"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Transcription"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Annotation"
+    },
+    {
+        "skill_id": "10",
+        "name": "Online Research"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Security"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Privacy Compliance"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Accuracy"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Backup"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Archiving"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Macros"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Automation"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Forms Design"
+    },
+    {
+        "skill_id": "10",
+        "name": "Document Scanning"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Deduplication"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Speed Test"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Training"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Accuracy Audit"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Batch Processing"
+    },
+    {
+        "skill_id": "10",
+        "name": "OCR (Optical Character Recognition)"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Dashboards"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry Error Handling"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry in Different Languages"
+    },
+    {
+        "skill_id": "10",
+        "name": "Data Entry in Spreadsheet Software"
+    },
+    {
+        "skill_id": "11",
+        "name": "Search Engine Optimization (SEO)"
+    },
+    {
+        "skill_id": "11",
+        "name": "Keyword Research"
+    },
+    {
+        "skill_id": "11",
+        "name": "On-Page SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "Off-Page SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "Technical SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "Local SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO Audits"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO Strategy"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO Analytics"
+    },
+    {
+        "skill_id": "11",
+        "name": "Competitor Analysis in SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "Backlink Building"
+    },
+    {
+        "skill_id": "11",
+        "name": "Link Building Strategies"
+    },
+    {
+        "skill_id": "11",
+        "name": "Anchor Text Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Content Optimization for SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO-Friendly Content Writing"
+    },
+    {
+        "skill_id": "11",
+        "name": "Meta Tags Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Header Tag Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "XML Sitemap Creation"
+    },
+    {
+        "skill_id": "11",
+        "name": "Robots.txt Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Canonicalization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Schema Markup"
+    },
+    {
+        "skill_id": "11",
+        "name": "Mobile Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Page Speed Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Google Search Console"
+    },
+    {
+        "skill_id": "11",
+        "name": "Bing Webmaster Tools"
+    },
+    {
+        "skill_id": "11",
+        "name": "Google Analytics for SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO Reporting"
+    },
+    {
+        "skill_id": "11",
+        "name": "Local Business Listings"
+    },
+    {
+        "skill_id": "11",
+        "name": "Citation Building"
+    },
+    {
+        "skill_id": "11",
+        "name": "Voice Search Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Video SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "E-commerce SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "Structured Data Markup"
+    },
+    {
+        "skill_id": "11",
+        "name": "Google My Business Optimization"
+    },
+    {
+        "skill_id": "11",
+        "name": "Social Media SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for Images"
+    },
+    {
+        "skill_id": "11",
+        "name": "Local SEO Citations"
+    },
+    {
+        "skill_id": "11",
+        "name": "Google Maps SEO"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for WordPress"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for Joomla"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for Shopify"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for Magento"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for Drupal"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for Wix"
+    },
+    {
+        "skill_id": "11",
+        "name": "Local SEO Keywords"
+    },
+    {
+        "skill_id": "11",
+        "name": "SEO for Mobile Apps"
+    },
+    {
+        "skill_id": "12",
+        "name": "Ethical Hacking"
+    },
+    {
+        "skill_id": "12",
+        "name": "Penetration Testing"
+    },
+    {
+        "skill_id": "12",
+        "name": "Vulnerability Assessment"
+    },
+    {
+        "skill_id": "12",
+        "name": "Web Application Security"
+    },
+    {
+        "skill_id": "12",
+        "name": "Network Security"
+    },
+    {
+        "skill_id": "12",
+        "name": "Wireless Network Security"
+    },
+    {
+        "skill_id": "12",
+        "name": "Social Engineering"
+    },
+    {
+        "skill_id": "12",
+        "name": "Password Cracking"
+    },
+    {
+        "skill_id": "12",
+        "name": "Firewall Configuration"
+    },
+    {
+        "skill_id": "12",
+        "name": "Intrusion Detection Systems (IDS)"
+    },
+    {
+        "skill_id": "12",
+        "name": "Intrusion Prevention Systems (IPS)"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Information and Event Management (SIEM)"
+    },
+    {
+        "skill_id": "12",
+        "name": "Incident Response"
+    },
+    {
+        "skill_id": "12",
+        "name": "Malware Analysis"
+    },
+    {
+        "skill_id": "12",
+        "name": "Forensic Analysis"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Auditing"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Policies and Procedures"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Awareness Training"
+    },
+    {
+        "skill_id": "12",
+        "name": "Cryptography"
+    },
+    {
+        "skill_id": "12",
+        "name": "Secure Coding Practices"
+    },
+    {
+        "skill_id": "12",
+        "name": "Exploit Development"
+    },
+    {
+        "skill_id": "12",
+        "name": "Reverse Engineering"
+    },
+    {
+        "skill_id": "12",
+        "name": "Red Team Operations"
+    },
+    {
+        "skill_id": "12",
+        "name": "Blue Team Operations"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Risk Assessment"
+    },
+    {
+        "skill_id": "12",
+        "name": "Cyber Threat Intelligence"
+    },
+    {
+        "skill_id": "12",
+        "name": "Ethical Hacking Tools (e.g., Metasploit, Burp Suite)"
+    },
+    {
+        "skill_id": "12",
+        "name": "Wireless Security Assessment"
+    },
+    {
+        "skill_id": "12",
+        "name": "Cloud Security"
+    },
+    {
+        "skill_id": "12",
+        "name": "Mobile Application Security"
+    },
+    {
+        "skill_id": "12",
+        "name": "Secure DevOps (DevSecOps)"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Architecture Design"
+    },
+    {
+        "skill_id": "12",
+        "name": "IoT Security"
+    },
+    {
+        "skill_id": "12",
+        "name": "Physical Security Assessment"
+    },
+    {
+        "skill_id": "12",
+        "name": "Bug Bounty Hunting"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Certifications (e.g., CEH, CISSP)"
+    },
+    {
+        "skill_id": "12",
+        "name": "Legal and Ethical Aspects of Hacking"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Patch Management"
+    },
+    {
+        "skill_id": "12",
+        "name": "Network Protocol Analysis"
+    },
+    {
+        "skill_id": "12",
+        "name": "Threat Modeling"
+    },
+    {
+        "skill_id": "12",
+        "name": "Adversarial Simulation"
+    },
+    {
+        "skill_id": "12",
+        "name": "Security Awareness Programs"
+    },
+    {
+        "skill_id": "12",
+        "name": "Privacy Assessment"
+    },
+    {
+        "skill_id": "12",
+        "name": "Risk Mitigation Strategies"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Supervised Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Unsupervised Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Reinforcement Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Deep Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Natural Language Processing (NLP)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Computer Vision"
+    },
+    {
+        "skill_id": "13",
+        "name": "Speech Recognition"
+    },
+    {
+        "skill_id": "13",
+        "name": "Image Processing"
+    },
+    {
+        "skill_id": "13",
+        "name": "Pattern Recognition"
+    },
+    {
+        "skill_id": "13",
+        "name": "Feature Engineering"
+    },
+    {
+        "skill_id": "13",
+        "name": "Model Selection"
+    },
+    {
+        "skill_id": "13",
+        "name": "Hyperparameter Tuning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Ensemble Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Transfer Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Clustering Algorithms"
+    },
+    {
+        "skill_id": "13",
+        "name": "Dimensionality Reduction"
+    },
+    {
+        "skill_id": "13",
+        "name": "Regression Analysis"
+    },
+    {
+        "skill_id": "13",
+        "name": "Classification Algorithms"
+    },
+    {
+        "skill_id": "13",
+        "name": "Decision Trees"
+    },
+    {
+        "skill_id": "13",
+        "name": "Random Forests"
+    },
+    {
+        "skill_id": "13",
+        "name": "Gradient Boosting"
+    },
+    {
+        "skill_id": "13",
+        "name": "Neural Networks"
+    },
+    {
+        "skill_id": "13",
+        "name": "Convolutional Neural Networks (CNN)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Recurrent Neural Networks (RNN)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Generative Adversarial Networks (GANs)"
+    },
+    {
+        "skill_id": "13",
+        "name": "AutoML (Automated Machine Learning)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Bayesian Methods"
+    },
+    {
+        "skill_id": "13",
+        "name": "Support Vector Machines (SVM)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Time Series Analysis"
+    },
+    {
+        "skill_id": "13",
+        "name": "Anomaly Detection"
+    },
+    {
+        "skill_id": "13",
+        "name": "Probabilistic Graphical Models"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning Pipelines"
+    },
+    {
+        "skill_id": "13",
+        "name": "Model Deployment"
+    },
+    {
+        "skill_id": "13",
+        "name": "Model Interpretability"
+    },
+    {
+        "skill_id": "13",
+        "name": "Bias and Fairness in Machine Learning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Explainable AI"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning Operations (MLOps)"
+    },
+    {
+        "skill_id": "13",
+        "name": "AI Ethics"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning Frameworks (e.g., TensorFlow, PyTorch)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Reinforcement Learning Frameworks (e.g., OpenAI Gym)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Model Evaluation Metrics"
+    },
+    {
+        "skill_id": "13",
+        "name": "A/B Testing for ML Models"
+    },
+    {
+        "skill_id": "13",
+        "name": "Feature Importance Analysis"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Augmentation for ML"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning Interpretability Tools"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Science"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Exploration"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Preprocessing"
+    },
+    {
+        "skill_id": "13",
+        "name": "Statistical Analysis"
+    },
+    {
+        "skill_id": "13",
+        "name": "Descriptive Statistics"
+    },
+    {
+        "skill_id": "13",
+        "name": "Inferential Statistics"
+    },
+    {
+        "skill_id": "13",
+        "name": "Hypothesis Testing"
+    },
+    {
+        "skill_id": "13",
+        "name": "Feature Extraction"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Visualization"
+    },
+    {
+        "skill_id": "13",
+        "name": "Exploratory Data Analysis (EDA)"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Cleaning"
+    },
+    {
+        "skill_id": "13",
+        "name": "Big Data Technologies (e.g., Hadoop, Spark)"
+    },
+    {
+        "skill_id": "13",
+        "name": "SQL for Data Science"
+    },
+    {
+        "skill_id": "13",
+        "name": "NoSQL Databases"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Warehousing"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Modeling"
+    },
+    {
+        "skill_id": "13",
+        "name": "Predictive Modeling"
+    },
+    {
+        "skill_id": "13",
+        "name": "Time Series Forecasting"
+    },
+    {
+        "skill_id": "13",
+        "name": "Survival Analysis"
+    },
+    {
+        "skill_id": "13",
+        "name": "Text Mining"
+    },
+    {
+        "skill_id": "13",
+        "name": "Geospatial Data Analysis"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Governance"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Ethics"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning for Business Intelligence"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Integration"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Cataloging"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Quality Management"
+    },
+    {
+        "skill_id": "13",
+        "name": "Data Science Collaboration Tools"
+    },
+    {
+        "skill_id": "13",
+        "name": "Time Series Analysis"
+    },
+    {
+        "skill_id": "13",
+        "name": "Customer Segmentation"
+    },
+    {
+        "skill_id": "13",
+        "name": "Churn Prediction"
+    },
+    {
+        "skill_id": "13",
+        "name": "Cross-Validation"
+    },
+    {
+        "skill_id": "13",
+        "name": "Machine Learning Interpretability"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC"
+    },
+    {
+        "skill_id": "14",
+        "name": "Real-Time Communication"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC API"
+    },
+    {
+        "skill_id": "14",
+        "name": "Peer-to-Peer Communication"
+    },
+    {
+        "skill_id": "14",
+        "name": "MediaStream API"
+    },
+    {
+        "skill_id": "14",
+        "name": "getUserMedia"
+    },
+    {
+        "skill_id": "14",
+        "name": "RTCPeerConnection"
+    },
+    {
+        "skill_id": "14",
+        "name": "RTCDataChannel"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Signaling"
+    },
+    {
+        "skill_id": "14",
+        "name": "ICE (Interactive Connectivity Establishment)"
+    },
+    {
+        "skill_id": "14",
+        "name": "STUN (Session Traversal Utilities for NAT)"
+    },
+    {
+        "skill_id": "14",
+        "name": "TURN (Traversal Using Relays around NAT)"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Security"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Codecs (VP8, VP9, H.264)"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Server Configuration"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Mobile Integration"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Browser Compatibility"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Data Transfer"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Screen Sharing"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Conference Calls"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC File Sharing"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Multi-party Communication"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Audio Processing"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Video Processing"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Network Resilience"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC NAT Traversal"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Connectivity Issues Troubleshooting"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Server Scaling"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Use Cases"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Continuous Integration"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Testing"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Security Best Practices"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Data Privacy Compliance"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Documentation"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Community Involvement"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Open Source Contributions"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Troubleshooting"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Server Maintenance"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC SDK Integration"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Customization"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Analytics"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Version Upgrades"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Community Forums Participation"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC User Experience Optimization"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebRTC Scalable Broadcasting"
+    },
+    {
+        "skill_id": "14",
+        "name": "WebVR (Virtual Reality for the Web)"
+    },
+    {
+        "skill_id": "14",
+        "name": "VR Development"
+    },
+    {
+        "skill_id": "14",
+        "name": "VR Design Principles"
+    },
+    {
+        "skill_id": "14",
+        "name": "VR Interaction Design"
+    },
+    {
+        "skill_id": "14",
+        "name": "Unity3D for VR"
+    },
+    {
+        "skill_id": "14",
+        "name": "Unreal Engine for VR"
+    },
+    {
+        "skill_id": "14",
+        "name": "360-degree Video Production"
+    },
+    {
+        "skill_id": "14",
+        "name": "Augmented Reality (AR) Development"
+    },
+    {
+        "skill_id": "14",
+        "name": "ARKit (for iOS)"
+    },
+    {
+        "skill_id": "14",
+        "name": "ARCore (for Android)"
+    },
+    {
+        "skill_id": "14",
+        "name": "Mixed Reality (MR)"
+    },
+    {
+        "skill_id": "14",
+        "name": "Spatial Computing"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Development"
+    },
+    {
+        "skill_id": "15",
+        "name": "Smart Contract Development (e.g., Solidity)"
+    },
+    {
+        "skill_id": "15",
+        "name": "Token Standards (e.g., ERC-721, ERC-1155)"
+    },
+    {
+        "skill_id": "15",
+        "name": "Minting NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "Digital Art for NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "Digital Content Creation"
+    },
+    {
+        "skill_id": "15",
+        "name": "3D Modeling for NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "Animation for NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Marketplace Development"
+    },
+    {
+        "skill_id": "15",
+        "name": "Building NFT Marketplaces"
+    },
+    {
+        "skill_id": "15",
+        "name": "Integration with Blockchain"
+    },
+    {
+        "skill_id": "15",
+        "name": "Blockchain Development Knowledge"
+    },
+    {
+        "skill_id": "15",
+        "name": "Cryptocurrency Wallet Integration"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Marketing"
+    },
+    {
+        "skill_id": "15",
+        "name": "Community Management for NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Legal Consulting"
+    },
+    {
+        "skill_id": "15",
+        "name": "Intellectual Property Rights for NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Analytics"
+    },
+    {
+        "skill_id": "15",
+        "name": "Analytics and Data Insights for NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Strategy Consultancy"
+    },
+    {
+        "skill_id": "15",
+        "name": "Market Trends Analysis for NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Investment Opportunities"
+    },
+    {
+        "skill_id": "15",
+        "name": "Decentralized Finance (DeFi) and NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "Cross-Chain NFT Solutions"
+    },
+    {
+        "skill_id": "15",
+        "name": "DAOs (Decentralized Autonomous Organizations) and NFTs"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Collaboration and Partnerships"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Project Management"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Auction Strategies"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Cross-Platform Integration"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Scalability Solutions"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Cross-Platform Compatibility"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Tokenomics"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Wallet Security"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Governance Models"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Integration with Virtual Worlds (Metaverse)"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT API Development"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Minting Platforms"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Rarity Strategies"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Collections Curation"
+    },
+    {
+        "skill_id": "15",
+        "name": "NFT Staking and Yield Farming"
+    },
+    {
+        "skill_id": "16",
+        "name": "Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Business Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Management Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Strategic Planning"
+    },
+    {
+        "skill_id": "16",
+        "name": "Market Research"
+    },
+    {
+        "skill_id": "16",
+        "name": "Financial Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Technology Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Human Resources Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Organizational Development"
+    },
+    {
+        "skill_id": "16",
+        "name": "Risk Management Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Legal Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Marketing Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Sales Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "IT Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Blockchain Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "NFT Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Digital Transformation Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Startup Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "E-commerce Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Social Media Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Environmental Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Healthcare Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Education Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Government Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Nonprofit Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "International Business Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Financial Planning"
+    },
+    {
+        "skill_id": "16",
+        "name": "Business Process Improvement"
+    },
+    {
+        "skill_id": "16",
+        "name": "Change Management Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Project Management Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Quality Management Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Customer Experience Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "IT Project Management Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Supply Chain Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Data Analytics Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Cybersecurity Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Legal Compliance Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Sustainability Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Brand Strategy Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Digital Marketing Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Customer Relationship Management (CRM) Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Executive Coaching"
+    },
+    {
+        "skill_id": "16",
+        "name": "Innovation Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Talent Acquisition Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Leadership Development Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Workforce Planning Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Strategic Communication Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Government Policy Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Diversity, Equity, and Inclusion (DEI) Consulting"
+    },
+    {
+        "skill_id": "16",
+        "name": "Ethics and Compliance Consulting"
+    },
+    {
+        "skill_id": "17",
+        "name": "Healthcare Consulting"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Doctor (General Practitioner)"
+    },
+    {
+        "skill_id": "17",
+        "name": "Specialized Physician (e.g., Cardiologist, Dermatologist)"
+    },
+    {
+        "skill_id": "17",
+        "name": "Nurse Practitioner"
+    },
+    {
+        "skill_id": "17",
+        "name": "Psychiatrist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Psychologist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Clinical Social Worker"
+    },
+    {
+        "skill_id": "17",
+        "name": "Physical Therapist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Occupational Therapist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Speech-Language Pathologist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Nutritionist/Dietitian"
+    },
+    {
+        "skill_id": "17",
+        "name": "Chiropractor"
+    },
+    {
+        "skill_id": "17",
+        "name": "Acupuncturist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Pharmacist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Researcher"
+    },
+    {
+        "skill_id": "17",
+        "name": "Healthcare IT Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Telemedicine Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Writer"
+    },
+    {
+        "skill_id": "17",
+        "name": "Healthcare Data Analyst"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Illustrator"
+    },
+    {
+        "skill_id": "17",
+        "name": "Health and Wellness Coach"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Billing Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Coding Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Transcriptionist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Healthcare Compliance Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Elderly Care Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Mental Health Counselor"
+    },
+    {
+        "skill_id": "17",
+        "name": "Substance Abuse Counselor"
+    },
+    {
+        "skill_id": "17",
+        "name": "Rehabilitation Counselor"
+    },
+    {
+        "skill_id": "17",
+        "name": "Healthcare Project Management"
+    },
+    {
+        "skill_id": "17",
+        "name": "Medical Equipment Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Emergency Medicine Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Radiologist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Pathologist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Telehealth Support"
+    },
+    {
+        "skill_id": "17",
+        "name": "Healthcare Marketing"
+    },
+    {
+        "skill_id": "17",
+        "name": "Public Health Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Infectious Disease Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Genetic Counselor"
+    },
+    {
+        "skill_id": "17",
+        "name": "Health Informatics Specialist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Dental Hygienist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Optometrist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Podiatrist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Audiologist"
+    },
+    {
+        "skill_id": "17",
+        "name": "Phlebotomist"
+    },
+    {
+        "skill_id": "18",
+        "name": "Idea Management"
+    },
+    {
+        "skill_id": "18",
+        "name": "Creative Thinking"
+    },
+    {
+        "skill_id": "18",
+        "name": "Innovation Consulting"
+    },
+    {
+        "skill_id": "18",
+        "name": "Brainstorming Facilitation"
+    },
+    {
+        "skill_id": "18",
+        "name": "Idea Generation Workshops"
+    },
+    {
+        "skill_id": "18",
+        "name": "Ideation Sessions"
+    },
+    {
+        "skill_id": "18",
+        "name": "Problem Solving"
+    },
+    {
+        "skill_id": "18",
+        "name": "Design Thinking"
+    },
+    {
+        "skill_id": "18",
+        "name": "Concept Development"
+    },
+    {
+        "skill_id": "18",
+        "name": "Market Research for Ideas"
+    },
+    {
+        "skill_id": "18",
+        "name": "Trend Analysis"
+    },
+    {
+        "skill_id": "18",
+        "name": "Competitor Analysis"
+    },
+    {
+        "skill_id": "18",
+        "name": "SWOT Analysis (Strengths, Weaknesses, Opportunities, Threats)"
+    },
+    {
+        "skill_id": "18",
+        "name": "Scenario Planning"
+    },
+    {
+        "skill_id": "18",
+        "name": "Futurism"
+    },
+    {
+        "skill_id": "18",
+        "name": "Ideation Software Tools (e.g., Mind Mapping)"
+    },
+    {
+        "skill_id": "18",
+        "name": "Prototype Development"
+    },
+    {
+        "skill_id": "18",
+        "name": "Storyboarding"
+    },
+    {
+        "skill_id": "18",
+        "name": "User-Centered Design"
+    },
+    {
+        "skill_id": "18",
+        "name": "Pitching Ideas"
+    },
+    {
+        "skill_id": "18",
+        "name": "Presentation Skills"
+    },
+    {
+        "skill_id": "18",
+        "name": "Storytelling"
+    },
+    {
+        "skill_id": "18",
+        "name": "Idea Validation"
+    },
+    {
+        "skill_id": "18",
+        "name": "Feedback Gathering"
+    },
+    {
+        "skill_id": "18",
+        "name": "Critical Thinking"
+    },
+    {
+        "skill_id": "18",
+        "name": "Strategic Planning"
+    },
+    {
+        "skill_id": "18",
+        "name": "Business Model Innovation"
+    },
+    {
+        "skill_id": "18",
+        "name": "Crowdsourcing Ideas"
+    },
+    {
+        "skill_id": "18",
+        "name": "Open Innovation"
+    },
+    {
+        "skill_id": "18",
+        "name": "Collaborative Idea Development"
+    },
+    {
+        "skill_id": "18",
+        "name": "Prototype Testing"
+    },
+    {
+        "skill_id": "18",
+        "name": "Idea Implementation Support"
+    },
+    {
+        "skill_id": "18",
+        "name": "Project Management for Ideas"
+    },
+    {
+        "skill_id": "18",
+        "name": "Cross-Functional Collaboration"
+    },
+    {
+        "skill_id": "18",
+        "name": "Agile Thinking"
+    },
+    {
+        "skill_id": "18",
+        "name": "Risk Assessment for Ideas"
+    },
+    {
+        "skill_id": "18",
+        "name": "Intellectual Property Consideration"
+    },
+    {
+        "skill_id": "18",
+        "name": "Ethical Considerations in Idea Management"
+    },
+    {
+        "skill_id": "18",
+        "name": "Business Impact Assessment for Ideas"
+    },
+    {
+        "skill_id": "18",
+        "name": "Continuous Learning and Adaptation"
+    },
+    {
+        "skill_id": "18",
+        "name": "Ideation Metrics and KPIs"
+    },
+    {
+        "skill_id": "18",
+        "name": "Innovation Culture Development"
+    }
+]

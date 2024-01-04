@@ -16,6 +16,13 @@ export const saveUser = async (user, role) => {
   return data;
 };
 
+export const getUser = async (user) => {
+  console.log(user);
+  const { data } = await axiosSecure.get(`/api/v1/get-user/${user}`);
+  console.log(data);
+  return data;
+};
+
 export const getToken = async (email) => {
   console.log(email);
   const { data } = await axiosSecure.post(`/api/v1/create-jwt`, email);

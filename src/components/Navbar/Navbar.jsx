@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { FaTimes } from "react-icons/fa";
+import { FaAngleDown, FaTimes } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { CgMenuRight } from "react-icons/cg";
 import { LuPhoneCall } from "react-icons/lu";
@@ -34,6 +34,7 @@ const Navbar = () => {
 
   const handleSetActive = (sectionId) => {
     setActiveSection(sectionId);
+    setShowMenu(false);
   };
 
   const NavLinks = (
@@ -60,10 +61,14 @@ const Navbar = () => {
         } ${
           scrolling && "bg-white"
         } hover:text-[#14B789] border-[#14B789] p-1 dropdown dropdown-bottom dropdown-hover`}
-        onClick={() => handleSetActive("Featured")}
       >
         <summary tabIndex={0} role="button" className="list-none">
-          Featured <IoIosArrowForward className="inline"/>
+          Featured
+          {activeSection === "Featured" ? (
+            <FaAngleDown className="inline" />
+          ) : (
+            <IoIosArrowForward className="inline" />
+          )}
         </summary>
         <ul
           tabIndex={0}
@@ -71,7 +76,8 @@ const Navbar = () => {
         >
           <li>
             <a
-              href="#Faq"
+              onClick={() => handleSetActive("Featured")}
+              href="#faq"
               className={` ${
                 scrolling && "bg-white"
               } hover:text-[#000]  border-[#14B789] p-1 `}
@@ -81,6 +87,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
+              onClick={() => handleSetActive("Featured")}
               href="#blog"
               className={` ${
                 scrolling && "bg-white"
@@ -104,7 +111,7 @@ const Navbar = () => {
       >
         What We Do
       </a>
-      <a
+      <Link to="freelancers"
         href="#Freelancers"
         onClick={() => handleSetActive("Freelancers")}
         className={`${
@@ -116,7 +123,7 @@ const Navbar = () => {
         } hover:text-[#14B789] hover:scale-125 border-[#14B789] p-1 `}
       >
         Freelancers
-      </a>
+      </Link>
 
       <a
         href="#contact"

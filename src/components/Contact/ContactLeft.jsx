@@ -42,10 +42,10 @@ const ContactLeft = () => {
           Stay Connected
         </h3>
         <div className="flex md:flex-wrap items-center gap-3">
-          <FaFacebook className="w-12 h-12 hover:text-blue-500 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
-          <FaTwitter className="w-12 h-12 hover:text-blue-500 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
-          <FaLinkedin className="w-12 h-12 hover:text-blue-500 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
-          <FaInstagram className="w-12 h-12 hover:text-red-400 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
+          <FaFacebook className="w-11 h-11 hover:text-blue-500 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
+          <FaTwitter className="w-11 h-11 hover:text-blue-500 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
+          <FaLinkedin className="w-11 h-11 hover:text-blue-500 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
+          <FaInstagram className="w-11 h-11 hover:text-red-400 cursor-pointer hover:bg-white bg-primary text-white rounded-full p-2 text-2xl" />
         </div>
       </div>
       <br />
