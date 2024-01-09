@@ -131,15 +131,15 @@ const Profile = () => {
       {edit ? (
         <>
           <form onSubmit={userData}>
-            <div className="flex border-2 rounded-lg">
+            <div className="flex border-2 rounded-lg flex-col md:flex-row">
               <div className="bg-primary text-white p-10 rounded-l-lg ">
                 <div
                   onClick={handleInput}
-                  className="cursor-pointer m-5 w-full"
+                  className="cursor-pointer m-5 w-full mx-auto"
                 >
                   <img
                     src={user.photoURL}
-                    className="object-cover h-72 w-72 rounded-full"
+                    className="object-cover h-72 w-72 rounded-full mx-auto "
                   />
                   <input
                     type="file"
@@ -164,8 +164,8 @@ const Profile = () => {
                 <h2 className="text-center text-xl">{dbUser?.role}</h2>
                 <br />
                 <div
-                  className="tooltip tooltip-bottom cursor-pointer flex justify-center items-center"
-                  data-tip="Save changes"
+                  className="tooltip tooltip-bottom cursor-pointer justify-center items-center hidden md:flex"
+                  data-tip="Save changes "
                 >
                   <button
                     type="submit"
@@ -180,12 +180,12 @@ const Profile = () => {
                   <h3 className="border-b-2 text-xl pb-2">Some information:</h3>
                   <br />
 
-                  <div className="flex gap-10">
+                  <div className="flex flex-col lg:flex-row gap-10">
                     <div>
                       <p className=" ">Email: </p>
                       <input
                         disabled
-                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-600 btn-disabled"
+                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-600 btn-disabled w-full"
                         placeholder={user?.email}
                         defaultValue={user?.email}
                         type="email"
@@ -195,7 +195,7 @@ const Profile = () => {
                       <br />
                       <p className="">Phone: </p>
                       <input
-                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-600 outline-none"
+                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-600 outline-none w-full"
                         placeholder={
                           dbUser?.number ? dbUser.number : "+880 1532******"
                         }
@@ -207,7 +207,7 @@ const Profile = () => {
                       <br />
                       <p className="">Last Education: </p>
                       <input
-                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-500 outline-none "
+                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-500 outline-none w-full"
                         placeholder={
                           dbUser?.education
                             ? dbUser.education
@@ -221,7 +221,7 @@ const Profile = () => {
                       <br />
                       <p className="">Location: </p>
                       <input
-                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-500 outline-none "
+                        className="p-3 mb-2 rounded-md bg-white border-b-2 text-gray-500 outline-none w-full"
                         placeholder={
                           dbUser?.location
                             ? dbUser.location
@@ -299,8 +299,8 @@ const Profile = () => {
                       </select>
                     </div>
                   </div>
-                  <div className="border max-w-xl">
-                    <div className="flex flex-wrap gap-4 w-96 box-border p-2">
+                  <div className="border lg:max-w-xl">
+                    <div className="flex flex-wrap gap-4 lg:w-96 box-border p-2">
                       {selectedSkills.length > 0 &&
                         selectedSkills?.map((skills, i) => (
                           <p
@@ -353,6 +353,17 @@ const Profile = () => {
                       rows="5"
                     ></textarea>
                   </div>
+                  <div
+                    className="tooltip tooltip-bottom cursor-pointer flex justify-center items-center md:hidden"
+                    data-tip="Save changes"
+                  >
+                    <button
+                      type="submit"
+                      className="flex gap-2 my-4 text-xl text-white rounded-lg py-2 px-5 bg-secondary"
+                    >
+                      Save <FaSave />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -360,13 +371,13 @@ const Profile = () => {
         </>
       ) : (
         <>
-          <div className=" flex rounded-lg w-full ml-12">
-            <div className="flex justify-center">
-              <div className="bg-primary text-black p-10 rounded-l-lg max-w-sm">
+          <div className=" flex rounded-lg w-full xl:ml-12">
+            <div className="flex justify-center items-center w-full md:w-auto">
+              <div className="bg-primary text-black p-10 rounded-lg xl:rounded-l-lg max-w-sm">
                 <img
                   src={user?.photoURL}
                   alt=""
-                  className="object-cover h-72 w-72 rounded-full"
+                  className="object-cover lg:h-72 lg:w-72 h-52 w-52 rounded-full mx-auto"
                 />
                 <br />
                 <h2 className="text-center text-xl">{user?.displayName}</h2>
@@ -398,20 +409,81 @@ const Profile = () => {
                   {dbUser?.location ? dbUser?.location : "Add your location"}
                 </p>
                 <br />
+                <div className=" text-black max-w-2xl md:hidden block">
+                  <div>
+                    <h3 className="border-b-2 text-xl pb-2">
+                      Some information:
+                    </h3>
+                    <br />
+                    <div className=" ">
+                      <div>
+                        <p className="border-b pb-2">Last Education: </p>
+                        <br />
+                        <p className="">{dbUser?.education} </p>
+
+                        <br />
+                      </div>
+                      <div>
+                        <p className="border-b pb-2">Work: </p>
+                        <br />
+                        <p className="">
+                          {dbUser?.work ? dbUser?.work : "Add your work"}{" "}
+                        </p>
+
+                        <br />
+                        <p className="border-b pb-2">Skills: </p>
+                        <br />
+                        <div className="flex flex-wrap gap-4 box-border p-2">
+                          {dbUser?.selectedSkills
+                            ? dbUser.selectedSkills?.map((skills, i) => (
+                                <p
+                                  className="bg-green-400 px-3 py-2 rounded-md flex gap-2 items-center"
+                                  key={i}
+                                >
+                                  {skills}
+                                </p>
+                              ))
+                            : "Set your skills"}
+                        </div>
+
+                        <br />
+                        <p className="border-b pb-2">TimeZone: </p>
+                        <br />
+                        <p className="">
+                          {dbUser?.timeZone
+                            ? dbUser?.timeZone
+                            : "Update your time zone"}{" "}
+                        </p>
+                        <br />
+                        <p className="border-b pb-2">Language: </p>
+                        <br />
+                        <p className="">
+                          {dbUser?.language
+                            ? dbUser?.language
+                            : "Update your language "}{" "}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
                 <br />
 
                 <div
-                  className="tooltip tooltip-bottom flex justify-center"
+                  className="tooltip tooltip-bottom flex justify-center items-center"
                   data-tip="Edit Profile"
                 >
-                  <FaEdit
+                  <button
+                    className="flex gap-2 my-4 text-xl text-white rounded-lg py-2 px-5 bg-secondary"
                     onClick={() => setEdit(!edit)}
-                    className="mx-auto text-2xl cursor-pointer"
-                  />
+                  >
+                    Update
+                    <FaEdit className="mx-auto text-2xl cursor-pointer" />
+                  </button>
                 </div>
               </div>
             </div>
-            <div className="p-10 text-black max-w-2xl">
+            <div className="p-10 text-black max-w-2xl hidden md:block">
               <div>
                 <h3 className="border-b-2 text-xl pb-2">Some information:</h3>
                 <br />

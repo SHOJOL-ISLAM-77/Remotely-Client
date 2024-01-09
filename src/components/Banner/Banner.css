@@ -15,7 +15,31 @@
 }
 
 .hover-div:hover .hover-Link {
- width: 100%;
- display: block;
-   transition-duration: 1s;
+    width: 100%;
+    display: block;
+    transition-duration: 1s;
+}
+
+
+.menu-toggler span {
+    width: 100%;
+    display: block;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.menu-toggler.menu-active span:first-child {
+    transform: rotate(48deg);
+    top: 10px;
+}
+
+.menu-toggler.menu-active span:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggler.menu-active span:last-child {
+    transform: rotate(-48deg);
+    bottom: 9px;
 }
