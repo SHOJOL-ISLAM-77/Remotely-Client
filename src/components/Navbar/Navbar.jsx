@@ -151,6 +151,19 @@ const Navbar = () => {
       >
         About Us
       </a>
+      <Link
+        to="/createUser"
+        onClick={() => handleSetActive("AboutUS")}
+        className={`${
+          activeSection === "AboutUS"
+            ? "active border-b-4 text-[#14B789] font-medium"
+            : "inactive"
+        } ${
+          scrolling && "bg-white"
+        } hover:text-[#14B789] hover:scale-125 border-[#14B789] p-1 `}
+      >
+        Sing Up
+      </Link>
     </>
   );
 
@@ -196,7 +209,7 @@ const Navbar = () => {
                       className="dropdown-content z-[1] menu p-2 mt-4 shadow bg-black text-white rounded-box w-52"
                     >
                       <li>
-                        <Link to="dashboard">Dashboard</Link>
+                        <Link to="/dashboard">Dashboard</Link>
                       </li>
                       <li>
                         <button onClick={logOut}>Logout</button>

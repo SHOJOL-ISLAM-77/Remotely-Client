@@ -1,16 +1,21 @@
-
 @media screen and (max-width: 1024px) {
     .add-bg {
         background-color: #fff;
         color: black;
         --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     }
 }
 
 .hover-effect:hover .btn-effect {
-   bottom: -16px;
-   transition-duration: 0.5s;
-   
+    bottom: -16px;
+    transition-duration: 0.5s;
+
+}
+
+.hover-div:hover .hover-Link {
+ width: 100%;
+ display: block;
+   transition-duration: 1s;
 }

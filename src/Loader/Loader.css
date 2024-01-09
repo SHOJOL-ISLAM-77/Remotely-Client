@@ -1,0 +1,20 @@
+.animate-spin-back {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes middle {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.animate-spin-middle {
+    animation: middle 1s linear infinite;
+}

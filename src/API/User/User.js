@@ -1,6 +1,6 @@
 import axiosSecure from ".";
 
-axiosSecure;
+
 export const saveUser = async (user, role) => {
   const userInfo = {
     name: user?.displayName,
@@ -16,10 +16,16 @@ export const saveUser = async (user, role) => {
   return data;
 };
 
+export const updateUser = async (userData ) => {
+  const { data } = await axiosSecure.put(
+    `/api/v1/update-user/${userData?.email}`,
+    userData
+  );
+  return data;
+}
+
 export const getUser = async (user) => {
-  console.log(user);
-  const { data } = await axiosSecure.get(`/api/v1/get-user/${user}`);
-  console.log(data);
+  const { data } = await axiosSecure.get(`/api/v1/get-user/${user}`); 
   return data;
 };
 

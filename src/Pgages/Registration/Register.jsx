@@ -60,7 +60,7 @@ const Register = () => {
 
       await getToken(result?.user?.email);
 
-      navigate("/");
+      navigate("/dashboard/profile");
       toast.success("User created Successfully!", { duration: 3000 });
       setLoading(false);
     } catch (err) {
