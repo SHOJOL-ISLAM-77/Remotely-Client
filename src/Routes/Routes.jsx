@@ -10,6 +10,7 @@ import Profile from "../Pgages/Dashboard/Profile.jsx";
 import Chat from "../Pgages/Dashboard/Chat.jsx";
 import Earn from "../Pgages/Dashboard/Earn.jsx";
 import PrivateRoute from "./PrivetRout.jsx";
+import AddProject from "../Pgages/Dashboard/AddProject.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/earn",
         element: <Earn />,
+      },
+      {
+        path: "/dashboard/profile/addProject",
+        element: <AddProject />,
       },
     ],
   },

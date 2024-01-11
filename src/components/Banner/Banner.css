@@ -14,12 +14,19 @@
 
 }
 
-.hover-div:hover .hover-Link {
-    width: 100%;
-    display: block;
-    transition-duration: 1s;
+.hover-div a span.hover-link {
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease-out 0.3s ;
+    }
+.hover-div:hover a span.hover-link {
+    width: 100% ;
 }
 
+.hover-div{
+    transition: width 0.3s ease-in 0.3s;
+}
 
 .menu-toggler span {
     width: 100%;
@@ -39,7 +46,12 @@
 .menu-toggler.menu-active span:nth-child(2) {
     opacity: 0;
 }
+
 .menu-toggler.menu-active span:last-child {
     transform: rotate(-48deg);
     bottom: 9px;
+}
+
+.rotate-div:hover .span {
+    rotate: 0%;
 }
